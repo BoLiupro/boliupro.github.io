@@ -1,0 +1,7 @@
+<div class="resource-links project-actions">
+{% if project.github %}<a class="code-button" href="{{ project.github }}">{% include icon.html name="github" %} {{ t.source_code }} ↗</a>{% endif %}
+{% if include.list %}<a href="{{ project_url | relative_url }}">{{ t.project_page }} →</a>{% endif %}
+{% if project.youtube_id %}<a href="{% if include.list %}{{ project_url | relative_url }}{% endif %}#demo">{{ t.watch_demo }} ▶</a>{% endif %}
+{% if project.report %}<a href="{{ project.report | relative_url }}">{{ t.report }} (PDF) ↗</a>{% endif %}
+{% if project.external %}<a href="{{ project.external }}">{{ t.project_writeup }} ↗</a>{% endif %}
+</div>

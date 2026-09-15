@@ -6,41 +6,20 @@
   - Software Assets
   - Knowledge Graphs
   en:
-    title: Agentic Code Intelligence
-    summary: Extracting reusable software assets and retrieving cross-repository context for code understanding
-      and completion.
+    title: Enterprise asset extraction based on knowledge graph and agentic Coding
+    summary: An ongoing research pipeline that connects business functions, rules, APIs, code, and tests in
+      an enterprise knowledge graph, providing traceable context for coding agents.
     role: Graduate researcher · Hunan University & China Unicom
     category: Ongoing research · Since July 2026
-    alt: Agentic Code Intelligence — framework overview
+    alt: 'Enterprise application knowledge graph: nine asset types linked through explicit relationships'
+    short_title: Enterprise Assets & Coding Agents
   zh:
-    title: Agentic 代码智能
-    summary: 提取可复用软件资产，通过跨仓库上下文检索支持代码理解与补全。
+    title: 基于知识图谱与 Agentic Coding 的企业资产提取
+    summary: 将业务功能、规则、接口、代码与测试组织为企业知识图谱，为编码智能体提供可追溯上下文的研究方案。
     role: 研究生研究人员 · 湖南大学与中国联通
     category: 进行中的研究 · 2026 年 7 月起
-    alt: Agentic 代码智能 — 方法框架
-  contain: true
-- id: maede
-  cover: /assets/images/papers/maede.webp
-  tags:
-  - Graph Learning
-  - Diffusion
-  - Contrastive Learning
-  - Forecasting
-  en:
-    title: 'MAEDE: Graph Diffusion for Mobility'
-    summary: Probabilistic forecasts of regional private-car activity, guided by temporal structure and urban context.
-    role: First author · Model design and implementation
-    category: Research project
-    alt: 'MAEDE: Graph Diffusion for Mobility — framework overview'
-  zh:
-    title: MAEDE 图扩散时空预测
-    summary: 利用时间结构与城市环境信息，对区域私家车活动进行概率预测。
-    role: 第一作者 · 模型设计与实现
-    category: 科研项目
-    alt: MAEDE 图扩散时空预测 — 方法框架
-  papers:
-  - maede
-  github: https://github.com/BoLiupro/MAEDE
+    alt: 企业应用知识图谱：通过明确关系连接九类软件资产
+    short_title: 企业资产与编码智能体
   contain: true
 - id: ai-voice-assistant
   cover: /assets/images/projects/ai-voice-assistant.webp
@@ -63,7 +42,7 @@
     category: 系统原型 · 视频演示
     alt: AI 语音助手原型演示
     video_caption: 中文原型演示。
-  video: /assets/videos/ai-voice-assistant.mp4
+  youtube_id: L_CBSocY_cs
 - id: smart-walking-stick
   cover: /assets/images/projects/smart-walking-stick.webp
   tags:
@@ -72,21 +51,24 @@
   - Sensors
   - Human-Centered Design
   en:
-    title: Connected Walking Stick
-    summary: A student-built wearable and walking-stick prototype that communicates heart-rate signals over Bluetooth.
+    title: Walking Stick with Heart Attack Detection
+    summary: An Arduino-based wristband and walking-stick prototype combining optical pulse sensing, Bluetooth
+      communication, and GSM text alerts for abnormal heart-rate readings.
     role: Team member · Embedded systems project
     category: Embedded systems · Video demo
     alt: Connected walking-stick project demonstration
     video_caption: Team demonstration of the sensing and communication prototype.
+    short_title: Walking Stick with Heart Attack Detection
   zh:
-    title: 联网智能手杖
-    summary: 连接腕部心率传感器与手杖的学生原型，通过蓝牙传输传感信号。
+    title: 具备心脏异常预警功能的智能手杖
+    summary: 基于 Arduino 的腕带与手杖原型，结合光学脉搏测量、蓝牙通信与 GSM 短信，实现异常心率读数预警。
     role: 团队成员 · 嵌入式系统项目
     category: 嵌入式系统 · 视频演示
     alt: 联网智能手杖项目演示
     video_caption: 团队演示传感与通信原型。
-  video: /assets/videos/smart-walking-stick.mp4
+    short_title: 智能手杖与心率预警
   report: /assets/files/projects/smart-walking-stick-report.pdf
+  youtube_id: bkAdHsDHf14
 - id: healthcare
   cover: /assets/images/projects/healthcare.webp
   tags:
@@ -95,23 +77,25 @@
   - Java
   - Mobile Applications
   en:
-    title: 'Healthcare: An App for Older Adults'
-    summary: An Android application prototype that brings health information, medicine lookup, and monitoring features
-      together.
+    title: 'Healthcare: Campus software innovation competition project'
+    summary: A healthcare application developed through a campus software innovation project, combining an
+      Android client, Spring Boot services, health information, and medicine lookup.
     role: Team organizer · Backend development
     category: Software engineering · Video demo
     alt: Healthcare (守护天使) project title slide
     video_caption: Team demonstration of the Android application.
+    short_title: Healthcare
   zh:
-    title: Healthcare 老年健康应用
-    summary: 面向老年用户的 Android 应用原型，整合健康信息、药品查询与监测功能。
+    title: Healthcare：校园软件创新竞赛项目
+    summary: 面向校园软件创新竞赛开发的健康服务应用，连接 Android 客户端与 Spring Boot 后端，整合健康信息与药品查询等功能。
     role: 团队组织者 · 后端开发
     category: 软件工程 · 视频演示
     alt: Healthcare（守护天使）项目介绍封面
     video_caption: 团队 Android 应用演示。
-  video: /assets/videos/healthcare.mp4
-  external: https://www.bilibili.com/video/BV1fW4y1p7kF/
+    short_title: Healthcare 健康应用
   contain: true
+  youtube_id: saCQTR9whzI
+  github: https://github.com/BoLiupro/HealthCare_V2
 - id: c-v2x
   cover: /assets/images/projects/c-v2x.webp
   tags:
@@ -120,17 +104,42 @@
   - Kalman Filter
   - MATLAB
   en:
-    title: C-V2X Positioning in Weak GNSS Environments
-    summary: An undergraduate thesis on roadside-unit and inertial-sensor fusion for vehicle positioning in weak
-      satellite-signal conditions.
+    title: Research on C-V2X synchronous positioning based on weak GNSS signal scenario
+    summary: A MATLAB simulation study of synchronized roadside units and sensor fusion for vehicle positioning
+      when GNSS signals weaken, with comparisons of estimation error and convergence.
     role: Undergraduate thesis author · Advised by Qinqin Chai
     category: Undergraduate thesis · 2024
     alt: Fig. 3-1. Master RSU synchronization, cascading links and position reference signals
+    short_title: C-V2X Synchronous Positioning
   zh:
-    title: 弱 GNSS 环境下的 C-V2X 定位
-    summary: 本科毕业设计：融合路侧单元与惯性传感信息，研究弱卫星信号条件下的车辆定位。
+    title: 弱 GNSS 信号场景下的 C-V2X 同步定位研究
+    summary: 通过 MATLAB 仿真研究路侧单元同步与多传感信息融合，比较弱 GNSS 条件下车辆定位的估计误差与收敛过程。
     role: 本科毕业设计作者 · Qinqin Chai 老师指导
     category: 本科毕业设计 · 2024
     alt: 图 3-1：主路侧单元同步、级联链路与定位参考信号
+    short_title: C-V2X 同步定位
   report: /assets/files/projects/c-v2x-thesis.pdf
   contain: true
+  github: https://github.com/BoLiupro/C-V2X
+- id: positioning-error-analysis
+  cover: /assets/images/projects/positioning-error.webp
+  contain: true
+  tags:
+  - Uncertainty Analysis
+  - Coordinate Geometry
+  - Simulation
+  en:
+    title: Target positioning error analysis technology based on electronic reconnaissance
+    summary: A technical study of how measurement uncertainty and observation geometry affect positioning estimates,
+      using mathematical modeling and simulation-based error analysis.
+    role: Research contributor
+    category: Technical research · 2024
+    alt: Coordinate-system illustration from the positioning error analysis report
+    short_title: Positioning Error Analysis
+  zh:
+    title: 基于电子侦察的目标定位误差分析技术
+    summary: 通过数学建模与仿真分析，研究测量不确定性和观测几何对定位估计误差的影响。
+    role: 研究参与者
+    category: 技术研究 · 2024
+    alt: 定位误差分析技术报告中的坐标系示意图
+    short_title: 定位误差分析

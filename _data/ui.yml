@@ -34,7 +34,6 @@ en:
   watch_demo: Watch demo
   video_demo: Video demo
   back_projects: All projects
-  download_video: Open / download video
   related_papers: Related publications
   resources: Code & resources
   report: Project report
@@ -49,6 +48,25 @@ en:
     title: Published & accepted
   - id: review
     title: Under review & revision
+  anonymous_code: Anonymous code
+  source_code: Source code
+  youtube: Watch on YouTube
+  demo_gallery: Project demos
+  previous: Previous items
+  next: Next items
+  previews:
+  - id: publications
+    title: Publications
+    all: All publications
+  - id: projects
+    title: Projects
+    all: All projects
+  - id: awards
+    title: Awards
+    all: All awards
+  - id: hobbies
+    title: Hobbies & volunteering
+    all: All hobbies
 zh:
   nav:
   - id: home
@@ -85,7 +103,6 @@ zh:
   watch_demo: 观看演示
   video_demo: 演示视频
   back_projects: 全部项目
-  download_video: 打开 / 下载视频
   related_papers: 相关论文
   resources: 代码与资源
   report: 项目报告
@@ -100,3 +117,22 @@ zh:
     title: 已发表 / 已接收
   - id: review
     title: 审稿与修改中
+  anonymous_code: 匿名代码
+  source_code: 源代码
+  youtube: 在 YouTube 观看
+  demo_gallery: 项目演示
+  previous: 向前浏览
+  next: 向后浏览
+  previews:
+  - id: publications
+    title: 论文
+    all: 全部论文
+  - id: projects
+    title: 项目
+    all: 全部项目
+  - id: awards
+    title: 荣誉
+    all: 全部荣誉
+  - id: hobbies
+    title: 生活与支教
+    all: 全部生活记录

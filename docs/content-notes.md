@@ -22,18 +22,26 @@ The supplied `BoLiu_CV.pdf`, the ten PDFs in `papers/`, the corresponding paper 
 
 ## Project selection
 
-Six projects are displayed: MAEDE, agentic code intelligence, AI voice assistant, connected walking stick, Healthcare, and C-V2X. Per the user’s correction, MOTION and AgentApp are papers only, and their project records and detail pages have been removed.
+Six projects are displayed: enterprise asset extraction with knowledge graphs and coding agents, an AI voice assistant, a walking stick with heart-rate alerts, Healthcare, C-V2X synchronous positioning, and electronic-reconnaissance positioning error analysis. MOTION, AgentApp and MAEDE appear only as papers; their project records and detail pages have been removed.
 
-The code-intelligence diagram is a site-authored workflow summary. The C-V2X cover uses the exact Master RSU synchronization illustration extracted from the supplied thesis (PDF page 13). Healthcare uses the title slide shown in the user’s image, extracted from the supplied demo recording. Three original demonstration videos are compressed for delivery and use native video controls. Roles are stated narrowly: first author where supported, graduate researcher for code intelligence, team organizer/backend developer for Healthcare, and team member for the walking-stick project.
+The enterprise project is expanded from `projects/Agentic_Code/知识图谱构建方案调研_v2.pptx`. Its cover is an English SVG adaptation of the knowledge-graph construction slide, using the original graph illustration. The nine entity types, explicit-evidence-first relationships, Neo4j design and office-automation example follow that proposal. The text distinguishes the ongoing design from completed deployment or benchmark results.
 
-The folders `projects/Target_manage` and `projects/SSPM` are not published in this set: their specific role descriptions, final project naming, or desired placement were not specified. Original materials remain untouched. They can be added to the existing content model when that context is supplied.
+Walking-stick content follows `Final_Report_G7.pdf`: MAX30102 pulse sensing, HC-05 links between Arduino boards, SIM900A SMS alerts, and documented limitations. It does not claim validated clinical heart-attack detection. Healthcare content follows the supplied project record and the public HealthCare V2 README. C-V2X content follows the supplied thesis and MATLAB repository, explicitly describing simulation results. Code links appear prominently for Healthcare and C-V2X; no unverified repositories are invented for the other projects.
+
+The C-V2X cover is the Master RSU synchronization illustration from the thesis. Healthcare uses the supplied title slide, extracted from the original demonstration. The positioning-error cover uses the coordinate diagram embedded in `projects/SSPM/技术研究报告.docx`; the project page provides a high-level research summary. Original technical source documents remain untouched.
+
+All three demonstrations now use user-supplied YouTube IDs: AI voice assistant `L_CBSocY_cs`, walking stick `bkAdHsDHf14`, Healthcare `saCQTR9whzI`. Video titles were checked against YouTube. Embeds appear on individual detail pages and in a two-column gallery on Projects. Unused local MP4 delivery copies were removed; the original source recordings remain in LB_sources.
+
+The user's YouTube channel is linked in both language variants of the sidebar. AgentApp's anonymous repository was supplied by the user; MOTION's repository was extracted from its manuscript. AgentApp and UniMob covers were extracted from their full framework figures, matching the user's references.
+
+The folder `projects/Target_manage` remains outside the displayed portfolio because no specific project selection or description was requested for it.
 
 ## Future content updates
 
 - Optional: provide the complete public author lists for anonymous manuscripts if `et al.` should be expanded.
 - Optional: update the downloadable PDF CV to match the Word CV.
 - Optional: add public code, arXiv, dataset and interactive-demo links as they become available. No placeholder resources are displayed.
-- Project demonstrations currently use the supplied recordings. No unprovided interactive research demo is simulated or claimed.
+- Project demonstrations use the supplied YouTube links. No unprovided interactive research demo is simulated or claimed.
 
 ## Template cleanup
 

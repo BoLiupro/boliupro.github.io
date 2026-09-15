@@ -8,7 +8,7 @@ The main audience is prospective PhD supervisors and research collaborators. The
 
 | English | Chinese | Purpose |
 | --- | --- | --- |
-| `/` | `/zh/` | Profile, About Me, Fall 2027 PhD notice, four research interests, seven recent news items |
+| `/` | `/zh/` | Profile, About Me, Fall 2027 PhD notice, four research interests, seven recent news items, four horizontal preview rows |
 | `/publications/` | `/zh/publications/` | 10 visual paper entries in the requested research order; each retains its status badge |
 | `/projects/` | `/zh/projects/` | Six research / engineering projects, including three video demos |
 | `/projects/<id>/` | `/zh/projects/<id>/` | Individual project story, framework or prototype, results where available, related papers and real resources |
@@ -22,7 +22,7 @@ The main audience is prospective PhD supervisors and research collaborators. The
 
 ### Profile
 
-`email`, `secondary_email`, `github`, `scholar` are shared. The `en` and `zh` blocks contain role, college, center, location, photo alt text, CV label and profile note.
+`email`, `secondary_email`, `github`, `scholar`, `youtube` are shared. The `en` and `zh` blocks contain role, college, center, location, photo alt text, CV label and profile note.
 
 ### Publication
 
@@ -34,20 +34,20 @@ The main audience is prospective PhD supervisors and research collaborators. The
 - `group`: `published` (published / accepted) or `review` (revision / review).
 - `summary.en`, `summary.zh`, `alt.en`, `alt.zh`: localized descriptions and accessible image text.
 - `pdf`, `cover`: existing local file paths.
-- Optional `doi`, `github`, `project`: real destinations only; missing resources produce no empty buttons.
+- Optional `doi`, `github`, `anonymous`, `project`: real destinations only; missing resources produce no empty buttons.
 
 Statuses never change automatically with the calendar. Update `status` and `group` together when a paper changes state, then add a news item if appropriate.
 
 ### Project
 
 - `id`, `cover`, `tags`: identity and visual metadata.
-- `en`, `zh`: title, summary, role, category, image description, optional video caption.
+- `en`, `zh`: title, summary, role, category, image description, optional video caption and compact `short_title` for homepage previews.
 - Optional `papers`: publication IDs, resolved into paper cards on the detail page.
-- Optional `video`, `report`, `github`, `external`: available resources.
+- Optional `youtube_id`, `report`, `github`, `external`: available resources.
 - Optional `contain`: keeps framework images visible in full within cards.
 - Two Markdown collection documents store localized long-form content and explicit `permalink` / `translation` fields.
 
-Project records cover agentic code intelligence, MAEDE, an AI voice assistant, a connected walking stick, Healthcare, and C-V2X positioning. MOTION and AgentApp appear only in Publications. Use Overview, Motivation, Method and Results when supported. Video, gallery, dataset and code sections should appear only when the corresponding material exists.
+Project records cover enterprise asset extraction and coding agents, an AI voice assistant, a walking stick, Healthcare, C-V2X positioning, and positioning error analysis. MOTION, AgentApp and MAEDE appear only in Publications. Use Overview, Motivation, Method and Results when supported. Video, gallery, dataset and code sections should appear only when the corresponding material exists.
 
 ### News
 
@@ -63,7 +63,7 @@ Year groups contain `items` with `title.en/zh`, `organization.en/zh`, optional `
 
 ## Add a new project
 
-1. Put optimized assets under `assets/images/projects/` and any available demonstration under `assets/videos/`.
+1. Put optimized assets under `assets/images/projects/`; set `youtube_id` to the 11-character ID of an available YouTube demo.
 2. Add one localized record to `_data/projects.yml`.
 3. Add `_projects/<id>-en.md` and `_projects/<id>-zh.md`, following an existing document’s front matter.
 4. Add related publication IDs if relevant.
@@ -71,7 +71,7 @@ Year groups contain `items` with `title.en/zh`, `organization.en/zh`, optional `
 
 ## Design tokens and behavior
 
-Maximum width: 1180 px. White background, charcoal text, muted burgundy accent. Compact desktop sidebar; a stacked profile and expandable navigation on mobile. The header is sticky. Research interests are light bordered cards; publications and projects use figure-and-text rows; news and awards remain simple lists. Images load lazily except for the portrait. Videos use `preload="none"` and never autoplay. Content is fully rendered without JavaScript; JavaScript adds only the mobile menu.
+Maximum width: 1180 px. White background, charcoal text, muted burgundy accent. Compact desktop sidebar; a stacked profile and expandable navigation on mobile. The header is sticky. Research interests are light bordered cards; publications and projects use figure-and-text rows; news and awards remain simple lists. Images load lazily except for the portrait. YouTube embeds load lazily, use descriptive titles and never autoplay. Content is fully rendered without JavaScript; JavaScript adds the mobile menu and optional scroll controls for the homepage preview rows.
 
 ## September 2026 content update
 
@@ -80,3 +80,9 @@ Publication order: MOTION → AgentApp → LLMApp → UniMob → RAG²-MP → CS
 The homepage research narrative uses four stages: graph/diffusion models; LLM semantic reasoning; retrieval-augmented and personalized agents; multi-agent reasoning over evolving graphs.
 
 Volunteer teaching is stored in `_data/volunteering.yml` and appended to Hobbies, with bilingual dates, school, description, and four photos.
+
+## Homepage previews
+
+`ui.en/zh.previews` defines the four section labels and their “All…” links. `_includes/home-previews.html` reads the existing publication, project, award, hobby and volunteering data, avoiding duplicate content records. The rows currently contain 10 publications, 6 projects, 13 awards and 5 hobby / volunteering entries. Publication cards link to paper anchors; project cards link to detail pages; awards and hobbies link to the matching timeline or gallery section.
+
+Desktop rows show four cards, medium-width screens show two, and narrow phones show one with a partial next card. Native scrolling remains usable without JavaScript. Buttons and keyboard arrows provide additional navigation, with reduced-motion preferences respected. Update the corresponding shared data to change the previews.

@@ -39,3 +39,37 @@
 .volunteering-gallery figure{aspect-ratio:4/3}
 .volunteering-gallery figure:nth-child(even){aspect-ratio:4/3}
 @media(max-width:760px){.award-entry{grid-template-columns:minmax(0,1fr);gap:13px}.award-evidence{max-width:230px}.award-evidence img{height:150px}.research-journey li{padding-left:29px}.volunteering-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* About text and advisor links. */
+.about-copy p,.about-copy li{text-align:justify;text-justify:inter-word;hyphens:auto}
+.about-copy a{text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+/* Four compact, independently scrollable entry rows. */
+.home-previews{margin-top:58px;padding-top:38px;border-top:1px solid var(--line);min-width:0}
+.preview-section{min-width:0;margin-bottom:38px;scroll-margin-top:100px}
+.preview-section:last-child{margin-bottom:0}
+.preview-navigation{display:flex;align-items:center;gap:18px}
+.preview-controls{display:none;gap:6px}.has-js .preview-controls{display:flex}
+.preview-controls button{width:34px;height:34px;border:1px solid var(--line);border-radius:50%;background:white;color:var(--accent);font-size:1rem;cursor:pointer}
+.preview-controls button:hover:not(:disabled){background:var(--soft);border-color:var(--accent)}
+.preview-controls button:disabled{opacity:.3;cursor:default}
+.preview-track{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 54px)/4);gap:18px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding:2px;max-width:100%;padding:3px 2px 13px;scrollbar-width:thin;scrollbar-color:#c8b3b6 var(--soft)}
+.preview-card{display:flex;flex-direction:column;min-width:0;scroll-snap-align:start;scroll-snap-stop:normal;border:1px solid var(--line);border-radius:7px;overflow:hidden;color:var(--ink);background:white;text-decoration:none}
+.preview-card:hover{border-color:var(--accent);color:var(--accent);text-decoration:none}
+.preview-card img{display:block;width:100%;height:auto;aspect-ratio:8/5;object-fit:cover;background:var(--soft);border-bottom:1px solid var(--line)}
+.preview-contain img{object-fit:contain;padding:8px;background:#fff}
+.preview-caption{padding:13px 14px 15px}
+.preview-caption h3{font-size:.9375rem;line-height:1.5;font-weight:600;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+.preview-caption p{font-size:.8rem;line-height:1.65;color:var(--muted);margin-top:7px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.preview-track:focus-visible,.preview-card:focus-visible,.preview-controls button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+/* Source code is available at the start of each relevant project. */
+.project-actions{margin-top:19px}.project-actions .code-button{display:inline-flex;align-items:center;gap:7px;background:var(--accent);border-color:var(--accent);color:#fff}
+.project-actions .code-button:hover{background:#762332;color:#fff}.code-button svg{width:16px;height:16px;flex-shrink:0}
+.youtube-player{aspect-ratio:16/9;width:100%;background:var(--soft);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.youtube-player iframe{display:block;width:100%;height:100%;border:0}
+.youtube-link{display:inline-block;font-size:.8125rem;margin-top:9px;text-decoration:underline;text-underline-offset:3px}
+.demo-gallery{margin-top:50px;padding-top:30px;border-top:1px solid var(--line)}
+.demo-gallery>h2{margin-bottom:22px}.demo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 22px}
+.demo-card{min-width:0}.demo-card h3{font-size:1rem;font-weight:550;line-height:1.6;margin-top:9px}.demo-card h3 a{color:var(--ink)}
+.hobby-section,.award-entry{scroll-margin-top:100px}
+@media(max-width:760px){.home-previews{margin-top:38px;padding-top:28px}.preview-track{grid-auto-columns:calc((100% - 16px)/2);gap:16px}.preview-navigation{gap:10px}.preview-section .section-heading{gap:12px;flex-wrap:wrap}.preview-controls button{width:32px;height:32px}.demo-grid{grid-template-columns:minmax(0,1fr)}.about-copy p,.about-copy li{hyphens:auto}}
+@media(max-width:480px){.preview-track{grid-auto-columns:82%}.preview-section .section-heading h2{font-size:1.2rem}.preview-navigation{width:100%;justify-content:space-between}}
+@media print{.preview-track{grid-auto-flow:row;grid-template-columns:repeat(4,minmax(0,1fr));overflow:visible}.preview-controls,.youtube-player{display:none}.preview-card{break-inside:avoid}}

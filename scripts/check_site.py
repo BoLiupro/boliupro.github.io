@@ -19,6 +19,8 @@ class Page(HTMLParser):
         self.lang = None
         self.alternates = {}
         self.videos = []
+        self.iframes = []
+        self.previews = 0
         self.publications = 0
         self.publication_ids = []
         self.feed(text)
@@ -33,6 +35,10 @@ class Page(HTMLParser):
             self.h1 += 1
         if tag == 'img':
             self.images.append(a)
+        if tag == 'iframe':
+            self.iframes.append(a)
+        if tag == 'a' and 'preview-card' in a.get('class', '').split():
+            self.previews += 1
         if tag == 'video':
             self.videos.append(a)
         if tag == 'article' and 'publication-card' in a.get('class', '').split():
@@ -68,9 +74,11 @@ for file, page in pages.items():
     for img in page.images:
         if not img.get('alt'):
             errors.append(f'{name}: missing image alt for {img.get("src")}')
-    for video in page.videos:
-        if 'controls' not in video or video.get('preload') != 'none' or 'autoplay' in video:
-            errors.append(f'{name}: video must have controls, load on demand, and not autoplay')
+    if page.videos:
+        errors.append(f'{name}: local video player remains after YouTube migration')
+    for iframe in page.iframes:
+        if not iframe.get('src', '').startswith('https://www.youtube-nocookie.com/embed/') or not iframe.get('title') or iframe.get('loading') != 'lazy' or 'allowfullscreen' not in iframe or 'autoplay' in iframe.get('src', ''):
+            errors.append(f'{name}: invalid YouTube embed or accessibility attributes')
     if name not in ['404.html', 'cn/index.html'] and not {'en', 'zh-CN'}.issubset(page.alternates):
         errors.append(f'{name}: missing language alternates')
     for url in page.links:
@@ -102,7 +110,7 @@ for path in ['publications/index.html', 'zh/publications/index.html']:
         errors.append(f'{path}: publication order differs from the requested research sequence')
 
 for prefix in ['', 'zh/']:
-    for slug in ['motion', 'agentapp']:
+    for slug in ['motion', 'agentapp', 'maede']:
         if (root / prefix / 'projects' / slug).exists():
             errors.append(f'{prefix}projects/{slug}: removed paper-only project still published')
     homepage = pages.get(root / prefix / 'index.html')
@@ -110,9 +118,31 @@ for prefix in ['', 'zh/']:
         'https://www.hnu.edu.cn/', 'https://csee.hnu.edu.cn/', 'https://nscc.hnu.edu.cn/',
         'https://csee.hnu.edu.cn/people/xiaozhu', 'https://tong89.github.io/tongli.github.io/',
         'mailto:liubo317@hnu.edu.cn', 'mailto:bobliu317@gmail.com',
+        'https://www.youtube.com/channel/UC2O2Qyk9ewXtcT-T-8ghgEg',
     ]
     if homepage is None or not all(url in homepage.links for url in required_links):
         errors.append(f'{prefix}index.html: missing requested profile or advisor link')
+    if homepage is None or homepage.previews != 34 or not all('preview-' + section in homepage.ids for section in ['publications', 'projects', 'awards', 'hobbies']):
+        errors.append(f'{prefix}index.html: expected four preview rows with 10/6/13/5 items')
+    publications = pages.get(root / prefix / 'publications/index.html')
+    for link in ['https://anonymous.4open.science/r/MOTION-04C4', 'https://anonymous.4open.science/r/AgentApp-8202']:
+        if publications is None or link not in publications.links:
+            errors.append(f'{prefix}publications: missing anonymous repository {link}')
+    demo_ids = {'ai-voice-assistant': 'L_CBSocY_cs', 'smart-walking-stick': 'bkAdHsDHf14', 'healthcare': 'saCQTR9whzI'}
+    project_index = pages.get(root / prefix / 'projects/index.html')
+    expected_embeds = ['https://www.youtube-nocookie.com/embed/' + value for value in demo_ids.values()]
+    if project_index is None or [frame['src'] for frame in project_index.iframes] != expected_embeds:
+        errors.append(f'{prefix}projects: demo gallery must contain the three supplied YouTube videos')
+    for slug, video_id in demo_ids.items():
+        detail = pages.get(root / prefix / 'projects' / slug / 'index.html')
+        if detail is None or [frame['src'] for frame in detail.iframes] != ['https://www.youtube-nocookie.com/embed/' + video_id]:
+            errors.append(f'{prefix}projects/{slug}: missing corresponding YouTube demo')
+    for slug, repository in [('healthcare', 'HealthCare_V2'), ('c-v2x', 'C-V2X')]:
+        detail = pages.get(root / prefix / 'projects' / slug / 'index.html')
+        if detail is None or 'https://github.com/BoLiupro/' + repository not in detail.links:
+            errors.append(f'{prefix}projects/{slug}: missing source code')
+    if root / prefix / 'projects/positioning-error-analysis/index.html' not in pages:
+        errors.append(f'{prefix}projects: missing positioning error analysis project')
     awards = pages.get(root / prefix / 'awards/index.html')
     if awards is None or len(awards.images) != 13:
         errors.append(f'{prefix}awards: expected evidence images for all 13 awards')
@@ -141,5 +171,7 @@ if errors:
     print('\n'.join(errors))
     sys.exit(1)
 print(f'PASS: {len(pages)} HTML pages; 24 sitemap routes; all local resources and anchors resolve.')
-print('PASS: bilingual metadata, 10 papers per language, image descriptions, and on-demand videos.')
+print('PASS: bilingual metadata, 10 papers per language, image descriptions, and lazy-loaded YouTube demos.')
 print('PASS: requested paper order, profile links, 13 award evidence images, and volunteer galleries.')
+
+print("PASS: four homepage preview rows, anonymous code links, YouTube channel, and project repositories.")

@@ -1,0 +1,4 @@
+<a class="preview-card{% if include.contain %} preview-contain{% endif %}" href="{{ include.url | relative_url }}">
+  <img src="{{ include.image | relative_url }}" alt="{{ include.alt | escape }}" width="400" height="250" loading="lazy">
+  <div class="preview-caption"><h3>{{ include.title }}</h3>{% if include.meta %}<p>{{ include.meta }}</p>{% endif %}</div>
+</a>

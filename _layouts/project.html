@@ -2,8 +2,11 @@
 layout: default
 ---
 {% assign t = site.data.ui[page.lang] %}{% assign prefix = '' %}{% if page.lang == 'zh' %}{% assign prefix = '/zh' %}{% endif %}{% assign project = site.data.projects | where: 'id', page.project_id | first %}{% assign c = project[page.lang] %}
-<article class="project-detail"><a class="back-link" href="{{ prefix | append: '/projects/' | relative_url }}">← {{ t.back_projects }}</a><header class="project-detail-heading"><p class="eyebrow">{{ c.category }}</p><h1>{{ c.title }}</h1><p class="page-intro">{{ c.summary }}</p><p class="project-role"><strong>{{ t.role }}:</strong> {{ c.role }}</p><ul class="tags">{% for tag in project.tags %}<li>{{ tag }}</li>{% endfor %}</ul></header>
-<figure class="project-hero"><img src="{{ project.cover | relative_url }}" alt="{{ c.alt | escape }}" width="1000" height="560"><figcaption>{{ c.alt }}</figcaption></figure><div class="project-prose">{{ content }}</div>
-{% if project.video %}<section id="demo" class="project-demo"><h2>{{ t.video_demo }}</h2><video controls playsinline preload="none" poster="{{ project.cover | relative_url }}" aria-label="{{ c.title | escape }} — {{ t.video_demo }}"><source src="{{ project.video | relative_url }}" type="video/mp4"><a href="{{ project.video | relative_url }}">{{ t.download_video }}</a></video><p class="video-caption">{{ c.video_caption }}</p><a class="text-link" href="{{ project.video | relative_url }}">{{ t.download_video }} ↓</a></section>{% endif %}
+<article class="project-detail">
+<a class="back-link" href="{{ prefix | append: '/projects/' | relative_url }}">← {{ t.back_projects }}</a>
+<header class="project-detail-heading"><p class="eyebrow">{{ c.category }}</p><h1>{{ c.title }}</h1><p class="page-intro">{{ c.summary }}</p><p class="project-role"><strong>{{ t.role }}:</strong> {{ c.role }}</p><ul class="tags">{% for tag in project.tags %}<li>{{ tag }}</li>{% endfor %}</ul>{% include project-actions.html %}</header>
+<figure class="project-hero"><img src="{{ project.cover | relative_url }}" alt="{{ c.alt | escape }}" width="1000" height="560"><figcaption>{{ c.alt }}</figcaption></figure>
+<div class="project-prose">{{ content }}</div>
+{% if project.youtube_id %}<section id="demo" class="project-demo"><h2>{{ t.video_demo }}</h2>{% include youtube.html project=project %}<p class="video-caption">{{ c.video_caption }}</p></section>{% endif %}
 {% if project.papers %}<section class="related-publications"><h2>{{ t.related_papers }}</h2>{% for id in project.papers %}{% assign paper = site.data.publications | where: 'id', id | first %}{% if paper %}{% include publication-card.html paper=paper %}{% endif %}{% endfor %}</section>{% endif %}
-{% if project.report or project.github or project.external %}<section class="project-resources"><h2>{{ t.resources }}</h2><div class="resource-links">{% if project.report %}<a href="{{ project.report | relative_url }}">{{ t.report }} (PDF) ↗</a>{% endif %}{% if project.github %}<a href="{{ project.github }}">GitHub ↗</a>{% endif %}{% if project.external %}<a href="{{ project.external }}">{{ t.project_writeup }} ↗</a>{% endif %}</div></section>{% endif %}</article>
+</article>

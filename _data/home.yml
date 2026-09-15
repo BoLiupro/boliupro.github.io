@@ -1,11 +1,9 @@
 en:
-  eyebrow: Agentic AI · Spatiotemporal Intelligence
   title: About Me
   phd_title: PhD Application
   phd_term: Fall 2027
-  phd_copy: I am currently exploring PhD opportunities for Fall 2027. My interests broadly lie in Agentic AI, Spatiotemporal
-    and Spatial Intelligence, Human-Centered AI, Robotics, and Embodied Intelligence. I would be grateful for opportunities
-    to connect with researchers working in related areas.
+  phd_copy: I am currently exploring PhD opportunities for Fall 2027. I would be grateful for opportunities
+    to connect with researchers and discuss potential PhD positions or research collaborations.
   research_title: Research Interests
   news_title: News & Updates
   interests:
@@ -18,11 +16,10 @@ en:
   - title: Robotics & Embodied Intelligence
     keywords: Embodied Agents · Physical AI · Intelligent Robotics
 zh:
-  eyebrow: Agentic AI · 时空智能
   title: 关于我
   phd_title: 博士申请
   phd_term: 2027 年秋季
-  phd_copy: 我正在寻找 2027 年秋季入学的博士机会，研究兴趣涵盖 Agentic AI、时空与空间智能、以人为中心的 AI、机器人与具身智能。期待与相关方向的老师和研究者交流博士机会与科研合作。
+  phd_copy: 我正在寻找 2027 年秋季入学的博士机会。期待与老师和研究者交流博士机会与科研合作。
   research_title: 研究兴趣
   news_title: 新闻与动态
   interests:
