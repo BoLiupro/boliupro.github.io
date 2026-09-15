@@ -1,0 +1,28 @@
+title: Bo Liu
+description: Bo Liu, a graduate researcher at Hunan University working on Agentic AI, large language models, and spatiotemporal intelligence.
+url: https://boliupro.github.io
+baseurl: ""
+lang: en
+timezone: Asia/Shanghai
+markdown: kramdown
+kramdown:
+  input: Kramdown
+highlighter: rouge
+permalink: pretty
+strict_front_matter: true
+collections:
+  projects:
+    output: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      lang: en
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+      section: projects
+exclude: [Gemfile, Gemfile.lock, README.md, LICENSE, docs, scripts, vendor, node_modules, tmp]

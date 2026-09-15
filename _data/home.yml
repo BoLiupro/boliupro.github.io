@@ -1,0 +1,36 @@
+en:
+  eyebrow: Agentic AI · Spatiotemporal Intelligence
+  title: About Me
+  phd_title: PhD Application
+  phd_term: Fall 2027
+  phd_copy: I am currently exploring PhD opportunities for Fall 2027. My interests broadly lie in Agentic AI, Spatiotemporal
+    and Spatial Intelligence, Human-Centered AI, Robotics, and Embodied Intelligence. I would be grateful for opportunities
+    to connect with researchers working in related areas.
+  research_title: Research Interests
+  news_title: News & Updates
+  interests:
+  - title: Agentic AI & Large Language Models
+    keywords: LLM Agents · Multi-Agent Systems · Memory · RAG · Reasoning
+  - title: Spatiotemporal Intelligence
+    keywords: Human Mobility · Mobile Data Mining · Spatiotemporal Learning · Graph Learning
+  - title: Spatial & Human-Centered Intelligence
+    keywords: Spatial Intelligence · Human–AI Interaction · Human-Centered AI
+  - title: Robotics & Embodied Intelligence
+    keywords: Embodied Agents · Physical AI · Intelligent Robotics
+zh:
+  eyebrow: Agentic AI · 时空智能
+  title: 关于我
+  phd_title: 博士申请
+  phd_term: 2027 年秋季
+  phd_copy: 我正在寻找 2027 年秋季入学的博士机会，研究兴趣涵盖 Agentic AI、时空与空间智能、以人为中心的 AI、机器人与具身智能。期待与相关方向的老师和研究者交流博士机会与科研合作。
+  research_title: 研究兴趣
+  news_title: 新闻与动态
+  interests:
+  - title: 智能体与大语言模型
+    keywords: LLM Agents · 多智能体系统 · 记忆 · RAG · 推理
+  - title: 时空智能
+    keywords: 人类移动行为 · 移动数据挖掘 · 时空学习 · 图学习
+  - title: 空间与人本智能
+    keywords: 空间智能 · 人机交互 · 以人为中心的 AI
+  - title: 机器人与具身智能
+    keywords: 具身智能体 · 物理 AI · 智能机器人

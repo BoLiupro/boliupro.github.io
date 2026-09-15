@@ -1,0 +1,1 @@
+<ol class="news-list">{% for item in site.data.news limit:include.limit %}<li><time datetime="{{ item.date }}">{{ item.display[page.lang] }}</time><div>{{ item.text[page.lang] | markdownify }}</div></li>{% endfor %}</ol>

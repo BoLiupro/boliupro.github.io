@@ -1,0 +1,8 @@
+{% assign prefix = '' %}{% if page.lang == 'zh' %}{% assign prefix = '/zh' %}{% endif %}
+<header class="site-header"><div class="header-inner">
+<a class="brand" href="{{ prefix | append: '/' | relative_url }}">Bo Liu<span class="brand-dot" aria-hidden="true">.</span></a>
+<button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false">{{ t.menu }} <span aria-hidden="true">☰</span></button>
+<nav id="primary-navigation" class="main-nav" aria-label="{{ t.navigation }}">
+{% for item in t.nav %}<a href="{{ prefix | append: item.path | relative_url }}"{% if page.section == item.id %} class="active" aria-current="page"{% endif %}>{{ item.label }}</a>{% endfor %}
+<a class="language-link" href="{{ page.translation | default: '/' | relative_url }}" lang="{% if page.lang == 'zh' %}en{% else %}zh-CN{% endif %}" aria-label="{{ t.switch_language }}">{{ t.language }}</a>
+</nav></div></header>

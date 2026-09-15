@@ -1,0 +1,1 @@
+<div class="awards-timeline">{% for year in site.data.awards %}<section class="award-year"><h2>{{ year.year }}</h2><ul>{% for award in year.items %}<li><h3>{{ award.title[page.lang] }}</h3><p>{{ award.organization[page.lang] }}</p>{% if award.note %}<p class="award-note">{{ award.note[page.lang] }}</p>{% endif %}</li>{% endfor %}</ul></section>{% endfor %}</div>

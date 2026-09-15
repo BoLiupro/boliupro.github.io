@@ -1,0 +1,96 @@
+- id: electronic-keyboard
+  title:
+    en: Music
+    zh: 音乐
+  description:
+    en: The electronic keyboard is my way to slow down, learn a melody, and enjoy the process of practice.
+    zh: 研究之外，电子琴让我慢下来，在旋律与练习中享受专注的过程。
+  photos:
+  - src: /assets/images/hobbies/electronic-keyboard-1.webp
+    alt:
+      en: Playing the electronic keyboard at home
+      zh: 在家弹奏电子琴
+  - src: /assets/images/hobbies/electronic-keyboard-2.webp
+    alt:
+      en: Practicing a melody at the keyboard
+      zh: 在电子琴上练习旋律
+  - src: /assets/images/hobbies/electronic-keyboard-3.webp
+    alt:
+      en: Hands on the electronic keyboard during practice
+      zh: 练习时弹奏电子琴的双手
+  - src: /assets/images/hobbies/electronic-keyboard-4.webp
+    alt:
+      en: An evening at the electronic keyboard
+      zh: 晚间的电子琴练习
+- id: hiking
+  title:
+    en: Hiking & Travel
+    zh: 徒步与旅行
+  description:
+    en: I enjoy heading outdoors, following a trail, and finding a different view of the world.
+    zh: 喜欢走到户外，沿着山路前行，发现生活中的不同风景。
+  photos:
+  - src: /assets/images/hobbies/hiking-1.webp
+    alt:
+      en: Sunrise over layers of mountains
+      zh: 层叠山峦间的日出
+  - src: /assets/images/hobbies/hiking-2.webp
+    alt:
+      en: Watching the sunrise during a mountain hike
+      zh: 登山途中欣赏日出
+  - src: /assets/images/hobbies/hiking-3.webp
+    alt:
+      en: Cattle grazing on a green hillside under a blue sky
+      zh: 蓝天下绿色山坡上吃草的牛群
+  - src: /assets/images/hobbies/hiking-4.webp
+    alt:
+      en: A sunny moment during a hiking trip
+      zh: 徒步旅行中阳光下的自拍
+- id: cycling
+  title:
+    en: Cycling
+    zh: 骑行
+  description:
+    en: A bike ride is a good reason to step away from the screen and explore the city at a different pace.
+    zh: 骑行是离开屏幕、用另一种节奏探索城市的方式。
+  photos:
+  - src: /assets/images/hobbies/cycling-1.webp
+    alt:
+      en: A bicycle beside the waterfront after dark
+      zh: 夜色中的江边自行车
+  - src: /assets/images/hobbies/cycling-2.webp
+    alt:
+      en: Cycling along a lakeside road
+      zh: 沿湖边公路骑行
+  - src: /assets/images/hobbies/cycling-3.webp
+    alt:
+      en: A recorded 50.50-kilometer cycling route
+      zh: 一次 50.50 公里骑行的路线记录
+  - src: /assets/images/hobbies/cycling-4.webp
+    alt:
+      en: A night ride seen from the bicycle
+      zh: 夜间骑行的第一视角
+- id: basketball
+  title:
+    en: Basketball
+    zh: 篮球
+  description:
+    en: I enjoy the energy of a game and the friendships that grow through playing as a team.
+    zh: 喜欢球场上的活力，也珍惜在团队协作中建立的友谊。
+  photos:
+  - src: /assets/images/hobbies/basketball-1.webp
+    alt:
+      en: Basketball teams posing together on court
+      zh: 篮球队伍在球场合影
+  - src: /assets/images/hobbies/basketball-2.webp
+    alt:
+      en: A moment of action during a basketball game
+      zh: 篮球比赛中的运动瞬间
+  - src: /assets/images/hobbies/basketball-3.webp
+    alt:
+      en: A team celebration after a basketball game
+      zh: 篮球比赛后的团队庆祝
+  - src: /assets/images/hobbies/basketball-4.webp
+    alt:
+      en: A basketball trophy and medals
+      zh: 篮球奖杯与奖牌

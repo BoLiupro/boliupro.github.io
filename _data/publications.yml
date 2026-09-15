@@ -1,0 +1,234 @@
+- id: llmapp
+  title: 'LLMApp: Unleashing the Power of Large Language Model for Mobile App Usage Prediction'
+  authors:
+  - Bo Liu
+  - Tong Li
+  - Miao Xiao
+  - Beihao Xia
+  - Zhu Xiao
+  - Zhuo Tang
+  - Kenli Li
+  venue: IEEE Transactions on Services Computing (TSC)
+  year: 2026
+  status: accepted
+  group: published
+  summary:
+    en: A hierarchical framework that compresses behavioral history, interprets context, and uses LLM reasoning
+      for coarse-to-fine mobile app usage prediction.
+    zh: 通过行为历史压缩、上下文语义理解与由粗到细的推理，利用大语言模型预测移动应用使用行为。
+  pdf: /assets/files/papers/llmapp.pdf
+  cover: /assets/images/papers/llmapp.webp
+  alt:
+    en: Mobile app categories and the contexts that shape application use
+    zh: 应用类别及影响应用使用行为的上下文
+  doi: 10.1109/TSC.2026.3732454
+  github: https://github.com/BoLiupro/LLMApp
+  project: agentapp
+- id: rag2-mp
+  title: A Mobility Prediction Method Based on Retrieval-Augmented Generation and Gravity Model
+  authors:
+  - Bo Liu
+  - Tong Li
+  - Zhu Xiao
+  - Zhuo Tang
+  - Kenli Li
+  venue: Chinese Journal of Computers
+  year: 2026
+  status: accepted
+  group: published
+  summary:
+    en: RAG²-MP combines retrieved mobility knowledge with gravity-based spatial constraints to ground LLM predictions
+      in collective behavior and physical distance.
+    zh: RAG²-MP 将移动行为知识检索与引力模型结合，为大语言模型提供群体行为先验和物理空间约束。
+  pdf: /assets/files/papers/rag2-mp.pdf
+  cover: /assets/images/papers/rag2-mp.webp
+  alt:
+    en: RAG²-MP framework combining behavior retrieval, gravity modeling and LLM reasoning
+    zh: RAG²-MP 融合行为检索、引力模型与 LLM 推理的框架
+  title_zh: 基于检索增强生成与引力模型的用户移动行为预测
+- id: maede
+  title: A Multi-Granularity Self-Guiding Graph Diffusion Model for Predicting Private Car Activity
+  authors:
+  - Bo Liu
+  - Tong Li
+  - Zhu Xiao
+  - Wenjie Chen
+  - Yongqiang Hei
+  - Jingtao Ding
+  - Guo Chen
+  venue: IEEE Transactions on Intelligent Transportation Systems (T-ITS)
+  year: 2026
+  status: published
+  group: published
+  summary:
+    en: MAEDE integrates graph diffusion, multiple temporal granularities, and LLM-enhanced urban representations
+      for probabilistic private-car activity forecasting.
+    zh: MAEDE 融合图扩散、多粒度时间建模与 LLM 增强的城市表征，对区域私家车活动进行概率预测。
+  pdf: /assets/files/papers/maede.pdf
+  cover: /assets/images/papers/maede.webp
+  alt:
+    en: Regional private-car arrivals, stays and departures illustrated on a map
+    zh: 地图上的区域私家车到达、停留与离开活动示意
+  volume: '27(6): 7172–7186'
+  doi: 10.1109/TITS.2026.3659102
+  github: https://github.com/BoLiupro/MAEDE
+  project: maede
+- id: cstnet
+  title: Exploring Spatio-Temporal Carbon Emission Across Passenger Car Trajectory Data
+  authors:
+  - Zhu Xiao
+  - Bo Liu
+  - Linshan Wu
+  - Hongbo Jiang
+  - Beihao Xia
+  - Tao Li
+  - Cassandra C. Wang
+  venue: IEEE Transactions on Intelligent Transportation Systems (T-ITS)
+  year: 2025
+  status: published
+  group: published
+  summary:
+    en: CSTNet models the interactions between traffic density and carbon emissions through multi-view graphs and
+      collaborative spatiotemporal learning.
+    zh: CSTNet 利用多视图图结构与协同时空学习，刻画交通密度与碳排放的关联并预测城市碳排放分布。
+  pdf: /assets/files/papers/cstnet.pdf
+  cover: /assets/images/papers/cstnet.webp
+  alt:
+    en: Multi-view graph modeling of activity similarity, geographic proximity and time similarity
+    zh: 活动相似性、地理邻近性与时间相似性的多视图图建模
+  volume: '26(2): 1812–1825'
+  doi: 10.1109/TITS.2024.3509381
+- id: motion
+  title: 'Beyond Trajectory Statistics: Community-Consistent Human Mobility Generation via Evolving User–Location
+    Graphs'
+  authors:
+  - Bo Liu
+  - Tong Li
+  - Jiapeng Zhang
+  - Zhu Xiao
+  - et al.
+  venue: KDD
+  year: 2027
+  status: under-review
+  group: review
+  summary:
+    en: MOTION coordinates User, Location, and Manager Agents over evolving user–location graphs to generate mobility
+      with consistent community structures.
+    zh: MOTION 在演化的用户—地点图上协调用户、地点和管理智能体，生成保持社区结构一致性的人类移动行为。
+  pdf: /assets/files/papers/motion.pdf
+  cover: /assets/images/papers/motion.webp
+  alt:
+    en: MOTION user, location and manager agents with community-consistency reflection
+    zh: MOTION 用户、地点、管理智能体及社区一致性反思机制
+  project: motion
+- id: agentapp
+  title: 'AgentApp: Bridging Personalized and Collective Patterns for Mobile App Usage Prediction via Collaborative
+    LLM Agents'
+  authors:
+  - Bo Liu
+  - Tong Li
+  - Miao Xiao
+  - Zhu Xiao
+  - et al.
+  venue: AAAI
+  year: 2027
+  status: under-review
+  group: review
+  summary:
+    en: A center–user multi-agent system combines collective behavioral retrieval, personalized memory, and adaptive
+      reflection for app usage prediction.
+    zh: 通过中心—用户多智能体协作，将群体行为检索、个性化记忆与自适应反思结合，用于应用使用预测。
+  pdf: /assets/files/papers/agentapp.pdf
+  cover: /assets/images/papers/agentapp.webp
+  alt:
+    en: Comparison of prediction architectures and the AgentApp center–user agent system
+    zh: 预测架构对比与 AgentApp 中心—用户多智能体系统
+  project: agentapp
+- id: unimob
+  title: 'All Cities are Equal: A Unified Human Mobility Generation Model Enabled by LLMs'
+  authors:
+  - Bo Liu
+  - Tong Li
+  - Zhu Xiao
+  - Ruihui Li
+  - Geyong Min
+  - Zhuo Tang
+  - Kenli Li
+  venue: IEEE Transactions on Knowledge and Data Engineering (TKDE)
+  year: 2026
+  status: minor-revision
+  group: review
+  summary:
+    en: UniMob connects LLM travel planning, unified spatial representations, and diffusion-based generation to
+      transfer mobility knowledge across cities.
+    zh: UniMob 融合 LLM 出行规划、统一空间表征与扩散生成模型，实现跨城市的人类移动行为生成。
+  pdf: /assets/files/papers/unimob.pdf
+  cover: /assets/images/papers/unimob.webp
+  alt:
+    en: UniMob travel planner, unified spatial embeddings and diffusion-based mobility generator
+    zh: UniMob 出行规划器、统一空间嵌入与扩散移动行为生成器
+- id: r2-transfer
+  title: 'R2-Transfer: Reflective Retrieval-Augmented Multi-Agent Framework for Cross-City Time Series Prediction'
+  authors:
+  - Haichen Lyu
+  - Tong Li
+  - Bo Liu
+  - et al.
+  venue: KDD
+  year: 2027
+  status: under-review
+  group: review
+  summary:
+    en: Retrieval over local source-city patterns enables prediction by analogy, while a reflection agent revises
+      prompts and memory in response to prediction errors.
+    zh: 检索源城市局部模式并进行类比预测，由反思智能体依据预测误差修正提示词和记忆，支持跨城市迁移。
+  pdf: /assets/files/papers/r2-transfer.pdf
+  cover: /assets/images/papers/r2-transfer.webp
+  alt:
+    en: R2-Transfer knowledge-base, retrieval, prediction and reflection agents
+    zh: R2-Transfer 知识库、检索、预测与反思智能体
+- id: moe-llm
+  title: 'MoE-LLM: A Hybrid Ensemble Framework Combining Mixture of Experts and LLM-Agent for Traffic Prediction'
+  authors:
+  - Feiyu Long
+  - Bo Liu
+  - Tong Li
+  - et al.
+  venue: ACM Transactions on Intelligent Systems and Technology (TIST)
+  year: 2026
+  status: under-review
+  group: review
+  summary:
+    en: An LLM coordination agent reasons about complementary spatial and temporal experts and adapts their contributions
+      to evolving mobile traffic patterns.
+    zh: LLM 协调智能体对时空专家的预测进行推理，并依据移动网络流量变化动态调整不同专家的贡献。
+  pdf: /assets/files/papers/moe-llm.pdf
+  cover: /assets/images/papers/moe-llm.webp
+  alt:
+    en: LLM expert coordination using time-series inputs and expert reliability
+    zh: LLM 利用时间序列与专家可靠度进行专家协调
+- id: hpdm
+  title: A Hierarchical Prediction-Driven Measurement Framework for Urban Pedestrian Red-Light Running
+  authors:
+  - Beihao Xia
+  - Bo Liu
+  - Heng Li
+  - Wei Yu
+  - Si Qiao
+  - Qinmu Peng
+  - Zhu Xiao
+  - Anthony Gar-On Yeh
+  - Xinge You
+  venue: Analytic Methods in Accident Research
+  year: 2026
+  status: under-review
+  group: review
+  summary:
+    en: A trajectory-based framework models how pedestrian intentions develop into crossing actions, measuring risk
+      before a red-light violation is observed.
+    zh: 基于轨迹预测分析行人意图向过街行为的转化过程，在可观测的闯红灯行为发生之前量化风险。
+  pdf: /assets/files/papers/hpdm.pdf
+  cover: /assets/images/papers/hpdm.webp
+  alt:
+    en: Pedestrian and traffic-light observations from two intersection camera views
+    zh: 交叉路口两个摄像机视角下的行人与交通信号灯观测

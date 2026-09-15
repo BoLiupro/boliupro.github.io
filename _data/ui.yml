@@ -1,0 +1,102 @@
+en:
+  nav:
+  - id: home
+    label: Home
+    path: /
+  - id: publications
+    label: Publications
+    path: /publications/
+  - id: projects
+    label: Projects
+    path: /projects/
+  - id: awards
+    label: Awards
+    path: /awards/
+  - id: hobbies
+    label: Hobbies
+    path: /hobbies/
+  language: 中文
+  switch_language: 阅读本页中文版
+  skip: Skip to content
+  menu: Menu
+  navigation: Main navigation
+  university: Hunan University
+  powered: Powered by
+  email: Email
+  profile: Profile
+  all_news: All news
+  paper: Paper
+  read_paper: Read paper
+  project: Project
+  role: My role
+  tags: Research and technology tags
+  project_page: Project page
+  watch_demo: Watch demo
+  video_demo: Video demo
+  back_projects: All projects
+  download_video: Open / download video
+  related_papers: Related publications
+  resources: Code & resources
+  report: Project report
+  project_writeup: Project write-up
+  status:
+    published: Published
+    accepted: Accepted
+    minor-revision: Minor revision
+    under-review: Under review
+  paper_groups:
+  - id: published
+    title: Published & accepted
+  - id: review
+    title: Under review & revision
+zh:
+  nav:
+  - id: home
+    label: 首页
+    path: /
+  - id: publications
+    label: 论文
+    path: /publications/
+  - id: projects
+    label: 项目
+    path: /projects/
+  - id: awards
+    label: 荣誉
+    path: /awards/
+  - id: hobbies
+    label: 生活
+    path: /hobbies/
+  language: English
+  switch_language: Read this page in English
+  skip: 跳转到正文
+  menu: 菜单
+  navigation: 主导航
+  university: 湖南大学
+  powered: 网站托管于
+  email: 邮箱
+  profile: 个人信息
+  all_news: 全部动态
+  paper: 论文
+  read_paper: 阅读论文
+  project: 项目
+  role: 我的角色
+  tags: 研究与技术标签
+  project_page: 项目详情
+  watch_demo: 观看演示
+  video_demo: 演示视频
+  back_projects: 全部项目
+  download_video: 打开 / 下载视频
+  related_papers: 相关论文
+  resources: 代码与资源
+  report: 项目报告
+  project_writeup: 项目记录
+  status:
+    published: 已发表
+    accepted: 已接收
+    minor-revision: 小修
+    under-review: 审稿中
+  paper_groups:
+  - id: published
+    title: 已发表 / 已接收
+  - id: review
+    title: 审稿与修改中
