@@ -20,6 +20,7 @@ class Page(HTMLParser):
         self.alternates = {}
         self.videos = []
         self.publications = 0
+        self.publication_ids = []
         self.feed(text)
 
     def handle_starttag(self, tag, attrs):
@@ -36,6 +37,7 @@ class Page(HTMLParser):
             self.videos.append(a)
         if tag == 'article' and 'publication-card' in a.get('class', '').split():
             self.publications += 1
+            self.publication_ids.append(a.get('id'))
         if tag == 'link' and a.get('rel') == 'alternate':
             self.alternates[a.get('hreflang')] = a.get('href')
         for attr in ['href', 'src', 'poster']:
@@ -96,6 +98,27 @@ for path in ['publications/index.html', 'zh/publications/index.html']:
     page = pages.get(root / path)
     if page is None or page.publications != 10:
         errors.append(f'{path}: must contain all 10 papers')
+    elif page.publication_ids != ['motion', 'agentapp', 'llmapp', 'unimob', 'rag2-mp', 'cstnet', 'maede', 'moe-llm', 'hpdm', 'r2-transfer']:
+        errors.append(f'{path}: publication order differs from the requested research sequence')
+
+for prefix in ['', 'zh/']:
+    for slug in ['motion', 'agentapp']:
+        if (root / prefix / 'projects' / slug).exists():
+            errors.append(f'{prefix}projects/{slug}: removed paper-only project still published')
+    homepage = pages.get(root / prefix / 'index.html')
+    required_links = [
+        'https://www.hnu.edu.cn/', 'https://csee.hnu.edu.cn/', 'https://nscc.hnu.edu.cn/',
+        'https://csee.hnu.edu.cn/people/xiaozhu', 'https://tong89.github.io/tongli.github.io/',
+        'mailto:liubo317@hnu.edu.cn', 'mailto:bobliu317@gmail.com',
+    ]
+    if homepage is None or not all(url in homepage.links for url in required_links):
+        errors.append(f'{prefix}index.html: missing requested profile or advisor link')
+    awards = pages.get(root / prefix / 'awards/index.html')
+    if awards is None or len(awards.images) != 13:
+        errors.append(f'{prefix}awards: expected evidence images for all 13 awards')
+    hobbies = pages.get(root / prefix / 'hobbies/index.html')
+    if hobbies is None or 'volunteering-title' not in hobbies.ids or len(hobbies.images) != 20:
+        errors.append(f'{prefix}hobbies: missing volunteer section or gallery photos')
 
 for file in root.rglob('*'):
     if file.is_file() and file.stat().st_size >= 100 * 1024 * 1024:
@@ -109,13 +132,14 @@ try:
     sitemap = ET.parse(root / 'sitemap.xml')
     ns = {'s': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
     urls = [item.text for item in sitemap.findall('.//s:loc', ns)]
-    if len(urls) != 28 or len(set(urls)) != 28:
-        errors.append(f'Sitemap must contain 28 unique content pages; found {len(urls)}')
+    if len(urls) != 24 or len(set(urls)) != 24:
+        errors.append(f'Sitemap must contain 24 unique content pages; found {len(urls)}')
 except (OSError, ET.ParseError) as exc:
     errors.append(f'Invalid sitemap: {exc}')
 
 if errors:
     print('\n'.join(errors))
     sys.exit(1)
-print(f'PASS: {len(pages)} HTML pages; 28 sitemap routes; all local resources and anchors resolve.')
+print(f'PASS: {len(pages)} HTML pages; 24 sitemap routes; all local resources and anchors resolve.')
 print('PASS: bilingual metadata, 10 papers per language, image descriptions, and on-demand videos.')
+print('PASS: requested paper order, profile links, 13 award evidence images, and volunteer galleries.')

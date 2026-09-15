@@ -16,3 +16,26 @@
 /* Reading text remains at the browser's default body size. */
 .paper-summary,.news-list p,.phd-notice p,.project-info>p:not(.eyebrow):not(.project-role){font-size:1rem}
 .interest-card h3{font-size:1rem}
+/* Profile links and the four-stage research trajectory. */
+.profile-role a,.profile-affiliations a{color:inherit}
+.profile-role a:hover,.profile-affiliations a:hover{color:var(--accent)}
+.link-icon{flex-shrink:0}.link-icon svg{display:block}
+.research-journey{list-style:none;counter-reset:research-stage;padding:0;margin:18px 0 22px}
+.research-journey li{position:relative;counter-increment:research-stage;padding:0 0 15px 37px;margin:0;border-left:1px solid var(--line);margin-left:11px;line-height:1.85}
+.research-journey li:last-child{padding-bottom:0;border-color:transparent}
+.research-journey li:before{content:counter(research-stage);position:absolute;left:-12px;top:3px;background:var(--rose);color:var(--accent);border:1px solid #ebd5d9;width:23px;height:23px;border-radius:50%;font-size:.75rem;font-weight:650;text-align:center;line-height:21px}
+.research-journey li>p{margin:0}
+/* Keep award evidence readable without turning the timeline into a large gallery. */
+.awards-timeline{max-width:100%}
+.award-entry{display:grid;grid-template-columns:minmax(0,1fr) 210px;gap:28px;align-items:start}
+.award-evidence a{display:block}
+.award-evidence img{width:100%;height:135px;object-fit:contain;background:var(--soft);border:1px solid var(--line);border-radius:5px;padding:5px}
+.award-evidence>a:hover img{border-color:var(--accent)}
+.award-evidence figcaption{font-size:.75rem;line-height:1.6;color:var(--muted);margin-top:6px}
+.award-evidence figcaption a{display:inline}
+.volunteering-section{padding-top:32px;border-top:1px solid var(--line)}
+.volunteering-meta{color:var(--accent)!important;font-size:.875rem!important}
+.volunteering-meta strong{color:var(--ink);font-weight:550}
+.volunteering-gallery figure{aspect-ratio:4/3}
+.volunteering-gallery figure:nth-child(even){aspect-ratio:4/3}
+@media(max-width:760px){.award-entry{grid-template-columns:minmax(0,1fr);gap:13px}.award-evidence{max-width:230px}.award-evidence img{height:150px}.research-journey li{padding-left:29px}.volunteering-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}

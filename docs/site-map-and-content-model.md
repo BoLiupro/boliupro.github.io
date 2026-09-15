@@ -9,11 +9,11 @@ The main audience is prospective PhD supervisors and research collaborators. The
 | English | Chinese | Purpose |
 | --- | --- | --- |
 | `/` | `/zh/` | Profile, About Me, Fall 2027 PhD notice, four research interests, seven recent news items |
-| `/publications/` | `/zh/publications/` | 10 visual paper entries, grouped by publication status |
-| `/projects/` | `/zh/projects/` | Eight research / engineering projects, including three video demos |
+| `/publications/` | `/zh/publications/` | 10 visual paper entries in the requested research order; each retains its status badge |
+| `/projects/` | `/zh/projects/` | Six research / engineering projects, including three video demos |
 | `/projects/<id>/` | `/zh/projects/<id>/` | Individual project story, framework or prototype, results where available, related papers and real resources |
-| `/awards/` | `/zh/awards/` | Year-based awards timeline |
-| `/hobbies/` | `/zh/hobbies/` | Music, hiking, cycling and basketball photo galleries |
+| `/awards/` | `/zh/awards/` | Year-based awards timeline with certificate or supporting-record images |
+| `/hobbies/` | `/zh/hobbies/` | Music, hiking, cycling, basketball and part-time volunteer-teaching photo galleries |
 | `/news/` | `/zh/news/` | Complete news archive |
 
 `/cn/` redirects to `/zh/`. The language switch always links to the equivalent page, including project details. `404.html`, `robots.txt` and `sitemap.xml` support discovery and missing-page navigation.
@@ -47,7 +47,7 @@ Statuses never change automatically with the calendar. Update `status` and `grou
 - Optional `contain`: keeps framework images visible in full within cards.
 - Two Markdown collection documents store localized long-form content and explicit `permalink` / `translation` fields.
 
-Project records cover MOTION, AgentApp, agentic code intelligence, MAEDE, an AI voice assistant, a connected walking stick, Healthcare, and C-V2X positioning. Use Overview, Motivation, Method and Results when supported. Video, gallery, dataset and code sections should appear only when the corresponding material exists.
+Project records cover agentic code intelligence, MAEDE, an AI voice assistant, a connected walking stick, Healthcare, and C-V2X positioning. MOTION and AgentApp appear only in Publications. Use Overview, Motivation, Method and Results when supported. Video, gallery, dataset and code sections should appear only when the corresponding material exists.
 
 ### News
 
@@ -55,7 +55,7 @@ Project records cover MOTION, AgentApp, agentic code intelligence, MAEDE, an AI 
 
 ### Award
 
-Year groups contain `items` with `title.en/zh`, `organization.en/zh`, and optional `note.en/zh`. Academic-year periods stay in notes; the timeline uses the end year for scholarship periods.
+Year groups contain `items` with `title.en/zh`, `organization.en/zh`, optional `note.en/zh`, and `evidence` containing an image, localized label and alt text, and optional PDF/source link. Missing certificates use a literal CV excerpt clearly labeled as a CV record. Academic-year periods stay in notes; the timeline uses the end year for scholarship periods.
 
 ### Hobby
 
@@ -72,3 +72,11 @@ Year groups contain `items` with `title.en/zh`, `organization.en/zh`, and option
 ## Design tokens and behavior
 
 Maximum width: 1180 px. White background, charcoal text, muted burgundy accent. Compact desktop sidebar; a stacked profile and expandable navigation on mobile. The header is sticky. Research interests are light bordered cards; publications and projects use figure-and-text rows; news and awards remain simple lists. Images load lazily except for the portrait. Videos use `preload="none"` and never autoplay. Content is fully rendered without JavaScript; JavaScript adds only the mobile menu.
+
+## September 2026 content update
+
+Publication order: MOTION → AgentApp → LLMApp → UniMob → RAG²-MP → CSTNet → MAEDE → MoE-LLM → HPDM → R2-Transfer. This manual data order takes precedence over status grouping.
+
+The homepage research narrative uses four stages: graph/diffusion models; LLM semantic reasoning; retrieval-augmented and personalized agents; multi-agent reasoning over evolving graphs.
+
+Volunteer teaching is stored in `_data/volunteering.yml` and appended to Hobbies, with bilingual dates, school, description, and four photos.

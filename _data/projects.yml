@@ -1,50 +1,3 @@
-- id: motion
-  cover: /assets/images/papers/motion.webp
-  tags:
-  - LLM Agents
-  - Multi-Agent
-  - Graphs
-  - Human Mobility
-  en:
-    title: Agentic Mobility Generation
-    summary: A multi-agent system that reasons over evolving user–location graphs to generate community-consistent
-      human mobility.
-    role: First author · Framework design and research
-    category: Research project
-    alt: Agentic Mobility Generation — framework overview
-  zh:
-    title: 多智能体移动行为生成
-    summary: 在演化的用户—地点图上进行多智能体推理，生成具有社区一致性的人类移动行为。
-    role: 第一作者 · 框架设计与研究
-    category: 科研项目
-    alt: 多智能体移动行为生成 — 方法框架
-  papers:
-  - motion
-  contain: true
-- id: agentapp
-  cover: /assets/images/papers/agentapp.webp
-  tags:
-  - Personalized Agents
-  - RAG
-  - Memory
-  - Mobile Computing
-  en:
-    title: AgentApp
-    summary: Personalized memory meets collective behavioral knowledge in a center–user system for mobile app usage
-      prediction.
-    role: First author · Multi-agent architecture and research
-    category: Research project
-    alt: AgentApp — framework overview
-  zh:
-    title: AgentApp 个性化协作智能体
-    summary: 在中心—用户协作系统中融合个性化记忆与群体行为知识，预测移动应用使用行为。
-    role: 第一作者 · 多智能体架构与研究
-    category: 科研项目
-    alt: AgentApp 个性化协作智能体 — 方法框架
-  papers:
-  - agentapp
-  - llmapp
-  contain: true
 - id: code-intelligence
   cover: /assets/images/projects/code-intelligence.svg
   tags:
@@ -147,19 +100,20 @@
       together.
     role: Team organizer · Backend development
     category: Software engineering · Video demo
-    alt: Healthcare Android application demonstration
+    alt: Healthcare (守护天使) project title slide
     video_caption: Team demonstration of the Android application.
   zh:
     title: Healthcare 老年健康应用
     summary: 面向老年用户的 Android 应用原型，整合健康信息、药品查询与监测功能。
     role: 团队组织者 · 后端开发
     category: 软件工程 · 视频演示
-    alt: Healthcare Android 应用演示
+    alt: Healthcare（守护天使）项目介绍封面
     video_caption: 团队 Android 应用演示。
   video: /assets/videos/healthcare.mp4
   external: https://www.bilibili.com/video/BV1fW4y1p7kF/
+  contain: true
 - id: c-v2x
-  cover: /assets/images/projects/c-v2x.svg
+  cover: /assets/images/projects/c-v2x.webp
   tags:
   - C-V2X
   - Sensor Fusion
@@ -171,12 +125,12 @@
       satellite-signal conditions.
     role: Undergraduate thesis author · Advised by Qinqin Chai
     category: Undergraduate thesis · 2024
-    alt: C-V2X Positioning in Weak GNSS Environments — framework overview
+    alt: Fig. 3-1. Master RSU synchronization, cascading links and position reference signals
   zh:
     title: 弱 GNSS 环境下的 C-V2X 定位
     summary: 本科毕业设计：融合路侧单元与惯性传感信息，研究弱卫星信号条件下的车辆定位。
     role: 本科毕业设计作者 · Qinqin Chai 老师指导
     category: 本科毕业设计 · 2024
-    alt: 弱 GNSS 环境下的 C-V2X 定位 — 方法框架
+    alt: 图 3-1：主路侧单元同步、级联链路与定位参考信号
   report: /assets/files/projects/c-v2x-thesis.pdf
   contain: true

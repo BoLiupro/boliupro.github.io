@@ -7,11 +7,14 @@ permalink: /
 translation: /zh/
 ---
 
-Hi! I am **Bo Liu (刘博)**, a third-year Master’s student at the **College of Computer Science and Electronic Engineering, Hunan University**, and the **National Supercomputing Center in Changsha**. I am fortunate to be advised by **Zhu Xiao** and **Tong Li**.
+Hi! I am **Bo Liu (刘博)**, a third-year Master’s student at the **College of Computer Science and Electronic Engineering, Hunan University**, and the **National Supercomputing Center in Changsha**. I am fortunate to be advised by **[Zhu Xiao](https://csee.hnu.edu.cn/people/xiaozhu)** and **[Tong Li](https://tong89.github.io/tongli.github.io/)**. My work has been published or accepted in **IEEE Transactions on Intelligent Transportation Systems, IEEE Transactions on Services Computing, and Chinese Journal of Computers**, with ongoing work under review or revision at major AI and data mining venues.
 
-My research began with **graph learning and diffusion-based modeling for spatiotemporal data**, exploring structured representations of human mobility and mobile behavior. I then moved toward **LLM-based semantic reasoning**, studying how language models can interpret behavioral intent and complement numerical models. More recently, I have focused on **Agentic AI for Spatiotemporal Intelligence and Mobile Data Mining**: personalized and retrieval-augmented agents, multi-agent collaboration, and reasoning over evolving user–location graphs. I am also exploring agentic code intelligence and the retrieval of reusable software assets.
+My research has developed through four connected stages, moving from spatiotemporal modeling toward agents that reason about people and structured environments:
 
-Looking ahead, I am interested in how intelligent agents **perceive, reason, interact, and act in complex human-centered and physical environments**. This motivates my broader interests in Human–AI Interaction, Spatial Intelligence, Robotics, and Embodied Intelligence.
+1. **Graph learning and diffusion modeling.** I began by learning structured representations of human mobility and developing multi-granularity graph diffusion models for private-car activity prediction.
+2. **LLM-based semantic reasoning.** I then explored how language models can infer travel intent, interpret behavioral context, and guide mobility generation and hierarchical app usage prediction.
+3. **Retrieval-augmented and personalized agents.** Building on semantic reasoning, I developed center–user collaboration that combines collective behavioral knowledge with individual memory, using retrieval and adaptive reflection for personalized prediction.
+4. **Multi-agent reasoning over evolving structured environments.** More recently, I have studied human mobility as the evolution of user–location graphs, coordinating User, Location, and Manager Agents to connect individual decisions with community-level interaction patterns.
+{: .research-journey}
 
-My work has been published or accepted in **IEEE T-ITS, IEEE TSC, and Chinese Journal of Computers**, with ongoing work under review or revision at major AI and data mining venues.
-{: .publication-note}
+Looking ahead, I am interested in how intelligent agents **perceive, reason, interact, and act in complex human-centered and physical environments**, with broader interests in **Human–AI Interaction, Spatial Intelligence, Robotics, and Embodied Intelligence**. Alongside this research, I am exploring agentic code intelligence and the retrieval of reusable software assets.

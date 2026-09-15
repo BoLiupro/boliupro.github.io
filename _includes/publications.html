@@ -1,2 +1,2 @@
 {% assign prefix = '' %}{% if page.lang == 'zh' %}{% assign prefix = '/zh' %}{% endif %}{% assign t = site.data.ui[page.lang] %}
-{% for group in t.paper_groups %}<section class="publication-group" aria-labelledby="group-{{ group.id }}"><div class="section-heading"><h2 id="group-{{ group.id }}">{{ group.title }}</h2></div>{% for paper in site.data.publications %}{% if paper.group == group.id %}{% include publication-card.html paper=paper %}{% endif %}{% endfor %}</section>{% endfor %}
+<div class="publication-list">{% for paper in site.data.publications %}{% include publication-card.html paper=paper %}{% endfor %}</div>

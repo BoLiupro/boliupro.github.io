@@ -8,7 +8,7 @@ en:
   center: National Supercomputing Center in Changsha
   location: Changsha, China
   photo_alt: Portrait of Bo Liu
-  cv: Curriculum Vitae
+  cv: CV
   note: Intelligent agents, human behavior, and the environments we share.
 zh:
   role: 软件工程硕士研究生
@@ -16,5 +16,8 @@ zh:
   center: 国家超级计算长沙中心
   location: 中国 · 长沙
   photo_alt: 刘博的个人照片
-  cv: 个人简历
+  cv: CV
   note: 研究智能体、人类行为与我们共同生活的环境。
+university_url: https://www.hnu.edu.cn/
+college_url: https://csee.hnu.edu.cn/
+center_url: https://nscc.hnu.edu.cn/

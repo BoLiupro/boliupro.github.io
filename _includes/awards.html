@@ -1,1 +1,16 @@
-<div class="awards-timeline">{% for year in site.data.awards %}<section class="award-year"><h2>{{ year.year }}</h2><ul>{% for award in year.items %}<li><h3>{{ award.title[page.lang] }}</h3><p>{{ award.organization[page.lang] }}</p>{% if award.note %}<p class="award-note">{{ award.note[page.lang] }}</p>{% endif %}</li>{% endfor %}</ul></section>{% endfor %}</div>
+<div class="awards-timeline">
+{% for year in site.data.awards %}
+  <section class="award-year">
+    <h2>{{ year.year }}</h2>
+    <ul>{% for award in year.items %}
+      <li class="award-entry">
+        <div class="award-copy"><h3>{{ award.title[page.lang] }}</h3><p>{{ award.organization[page.lang] }}</p>{% if award.note %}<p class="award-note">{{ award.note[page.lang] }}</p>{% endif %}</div>
+        {% if award.evidence %}<figure class="award-evidence">
+          <a href="{{ award.evidence.image | relative_url }}" target="_blank" rel="noopener" aria-label="{% if page.lang == 'zh' %}查看大图{% else %}View full image{% endif %}: {{ award.evidence.alt[page.lang] | escape }}"><img src="{{ award.evidence.image | relative_url }}" alt="{{ award.evidence.alt[page.lang] | escape }}" width="220" height="150" loading="lazy"></a>
+          <figcaption>{{ award.evidence.label[page.lang] }}{% if award.evidence.pdf %} · <a href="{{ award.evidence.pdf | relative_url }}">PDF ↗</a>{% endif %}{% if award.evidence.source %} · <a href="{{ award.evidence.source | relative_url }}">CV ↗</a>{% endif %}</figcaption>
+        </figure>{% endif %}
+      </li>
+    {% endfor %}</ul>
+  </section>
+{% endfor %}
+</div>

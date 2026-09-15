@@ -2,8 +2,14 @@
 <aside class="profile" aria-label="{{ t.profile }}">
 <img class="portrait" src="{{ '/assets/images/bo-liu.webp' | relative_url }}" alt="{{ p.photo_alt }}" width="208" height="256" fetchpriority="high">
 <h2 class="profile-name">Bo Liu <span lang="zh-CN">刘博</span></h2>
-<p class="profile-role">{{ p.role }}<br><strong>{{ t.university }}</strong></p>
-<div class="profile-affiliations"><p>{{ p.college }}</p><p>{{ p.center }}</p></div>
+<p class="profile-role">{{ p.role }}<br><strong><a href="{{ site.data.profile.university_url }}">{{ t.university }}</a></strong></p>
+<div class="profile-affiliations"><p><a href="{{ site.data.profile.college_url }}">{{ p.college }}</a></p><p><a href="{{ site.data.profile.center_url }}">{{ p.center }}</a></p></div>
 <p class="profile-location"><span aria-hidden="true">↗</span> {{ p.location }}</p>
-<ul class="profile-links"><li><a href="mailto:{{ site.data.profile.email }}"><span class="link-icon" aria-hidden="true">@</span>{{ site.data.profile.email }}</a></li><li><a href="{{ site.data.profile.scholar }}"><span class="link-icon" aria-hidden="true">S</span>Google Scholar <span class="external-arrow" aria-hidden="true">↗</span></a></li><li><a href="{{ site.data.profile.github }}"><span class="link-icon" aria-hidden="true">&lt;/&gt;</span>GitHub <span class="external-arrow" aria-hidden="true">↗</span></a></li><li><a href="{{ '/assets/files/Bo-Liu-CV.pdf' | relative_url }}"><span class="link-icon" aria-hidden="true">↓</span>{{ p.cv }} <span class="file-type">PDF</span></a></li></ul>
+<ul class="profile-links">
+  <li><a href="mailto:{{ site.data.profile.email }}"><span class="link-icon">{% include icon.html name="email" %}</span>{{ site.data.profile.email }}</a></li>
+  <li><a href="mailto:{{ site.data.profile.secondary_email }}"><span class="link-icon">{% include icon.html name="email" %}</span>{{ site.data.profile.secondary_email }}</a></li>
+  <li><a href="{{ site.data.profile.scholar }}"><span class="link-icon" aria-hidden="true">S</span>Google Scholar <span class="external-arrow" aria-hidden="true">↗</span></a></li>
+  <li><a href="{{ site.data.profile.github }}"><span class="link-icon">{% include icon.html name="github" %}</span>GitHub <span class="external-arrow" aria-hidden="true">↗</span></a></li>
+  <li><a href="{{ '/assets/files/Bo-Liu-CV.pdf' | relative_url }}"><span class="link-icon" aria-hidden="true">↓</span>{{ p.cv }} <span class="file-type">PDF</span></a></li>
+</ul>
 <p class="profile-note">{{ p.note }}</p></aside>

@@ -6,12 +6,28 @@
     organization:
       en: Ministry of Education of China
       zh: 中华人民共和国教育部
+    evidence:
+      image: /assets/images/awards/graduate-national.webp
+      label:
+        en: Certificate
+        zh: 获奖证书
+      alt:
+        en: National Scholarship for Graduate Students — Certificate
+        zh: 硕士研究生国家奖学金 — 获奖证书
   - title:
       en: National Third Prize
       zh: 全国三等奖
     organization:
       en: 11th China Graduate Smart City Technology and Creative Design Competition
       zh: 第十一届中国研究生智慧城市技术与创意设计大赛
+    evidence:
+      image: /assets/images/awards/smart-city-project.webp
+      label:
+        en: Project presentation
+        zh: 参赛项目汇报材料
+      alt:
+        en: National Third Prize — Project presentation
+        zh: 全国三等奖 — 参赛项目汇报材料
   - title:
       en: First Prize Scholarship
       zh: 一等奖学金
@@ -21,6 +37,15 @@
     note:
       en: 2025–2026 academic year
       zh: 2025–2026 学年
+    evidence:
+      image: /assets/images/awards/cv-honours.webp
+      label:
+        en: CV record · certificate not provided
+        zh: 简历记录 · 尚未提供对应证书
+      alt:
+        en: First Prize Scholarship — CV record · certificate not provided
+        zh: 一等奖学金 — 简历记录 · 尚未提供对应证书
+      source: /assets/files/Bo-Liu-CV.pdf
 - year: '2024'
   items:
   - title:
@@ -32,12 +57,29 @@
     note:
       en: 2024–2025 academic year
       zh: 2024–2025 学年
+    evidence:
+      image: /assets/images/awards/cv-honours.webp
+      label:
+        en: CV record · certificate not provided
+        zh: 简历记录 · 尚未提供对应证书
+      alt:
+        en: First Prize Scholarship — CV record · certificate not provided
+        zh: 一等奖学金 — 简历记录 · 尚未提供对应证书
+      source: /assets/files/Bo-Liu-CV.pdf
   - title:
       en: Excellent Graduate
       zh: 优秀毕业生
     organization:
       en: Fuzhou University
       zh: 福州大学
+    evidence:
+      image: /assets/images/awards/excellent-graduate.webp
+      label:
+        en: Certificate
+        zh: 获奖证书
+      alt:
+        en: Excellent Graduate — Certificate
+        zh: 优秀毕业生 — 获奖证书
   - title:
       en: Second Prize Scholarship
       zh: 二等奖学金
@@ -47,6 +89,15 @@
     note:
       en: 2023–2024 academic year
       zh: 2023–2024 学年
+    evidence:
+      image: /assets/images/awards/cv-honours.webp
+      label:
+        en: CV record · certificate not provided
+        zh: 简历记录 · 尚未提供对应证书
+      alt:
+        en: Second Prize Scholarship — CV record · certificate not provided
+        zh: 二等奖学金 — 简历记录 · 尚未提供对应证书
+      source: /assets/files/Bo-Liu-CV.pdf
 - year: '2023'
   items:
   - title:
@@ -58,6 +109,15 @@
     note:
       en: 2022–2023 academic year
       zh: 2022–2023 学年
+    evidence:
+      image: /assets/images/awards/cv-honours.webp
+      label:
+        en: CV record · certificate not provided
+        zh: 简历记录 · 尚未提供对应证书
+      alt:
+        en: Second Prize Scholarship — CV record · certificate not provided
+        zh: 二等奖学金 — 简历记录 · 尚未提供对应证书
+      source: /assets/files/Bo-Liu-CV.pdf
 - year: '2022'
   items:
   - title:
@@ -66,6 +126,15 @@
     organization:
       en: China Undergraduate Mathematical Contest in Modeling
       zh: 全国大学生数学建模竞赛
+    evidence:
+      image: /assets/images/awards/math-national.webp
+      label:
+        en: Certificate
+        zh: 获奖证书
+      alt:
+        en: National Second Prize — Certificate
+        zh: 全国二等奖 — 获奖证书
+      pdf: /assets/files/awards/math-national.pdf
   - title:
       en: Best Academic Performance Award
       zh: 最佳学业表现奖
@@ -75,6 +144,14 @@
     note:
       en: 2021–2022 academic year
       zh: 2021–2022 学年
+    evidence:
+      image: /assets/images/awards/maynooth-2022.webp
+      label:
+        en: Certificate
+        zh: 获奖证书
+      alt:
+        en: Best Academic Performance Award — Certificate
+        zh: 最佳学业表现奖 — 获奖证书
   - title:
       en: Second Prize Scholarship
       zh: 二等奖学金
@@ -84,6 +161,14 @@
     note:
       en: 2021–2022 academic year
       zh: 2021–2022 学年
+    evidence:
+      image: /assets/images/awards/fzu-2022.webp
+      label:
+        en: Certificate · first semester
+        zh: 获奖证书 · 第一学期
+      alt:
+        en: Second Prize Scholarship — Certificate
+        zh: 二等奖学金 — 获奖证书
 - year: '2021'
   items:
   - title:
@@ -95,6 +180,15 @@
     note:
       en: 'Team project: New Jointless Bridges · October 2021'
       zh: 团队项目：新型无缝桥梁 · 2021 年 10 月
+    evidence:
+      image: /assets/images/awards/internet-plus.webp
+      label:
+        en: Certificate
+        zh: 获奖证书
+      alt:
+        en: National Silver Prize — Certificate
+        zh: 全国银奖 — 获奖证书
+      pdf: /assets/files/awards/internet-plus.pdf
   - title:
       en: Best Academic Performance Award
       zh: 最佳学业表现奖
@@ -104,6 +198,14 @@
     note:
       en: 2020–2021 academic year
       zh: 2020–2021 学年
+    evidence:
+      image: /assets/images/awards/maynooth-2021.webp
+      label:
+        en: Certificate
+        zh: 获奖证书
+      alt:
+        en: Best Academic Performance Award — Certificate
+        zh: 最佳学业表现奖 — 获奖证书
   - title:
       en: Second Prize Scholarship
       zh: 二等奖学金
@@ -113,3 +215,11 @@
     note:
       en: 2020–2021 academic year
       zh: 2020–2021 学年
+    evidence:
+      image: /assets/images/awards/fzu-2021.webp
+      label:
+        en: Certificate · first semester
+        zh: 获奖证书 · 第一学期
+      alt:
+        en: Second Prize Scholarship — Certificate
+        zh: 二等奖学金 — 获奖证书

@@ -22,11 +22,11 @@ The supplied `BoLiu_CV.pdf`, the ten PDFs in `papers/`, the corresponding paper 
 
 ## Project selection
 
-Eight projects have sufficient material for a concrete description: MOTION, AgentApp, MAEDE, agentic code intelligence, AI voice assistant, connected walking stick, Healthcare, and C-V2X.
+Six projects are displayed: MAEDE, agentic code intelligence, AI voice assistant, connected walking stick, Healthcare, and C-V2X. Per the user’s correction, MOTION and AgentApp are papers only, and their project records and detail pages have been removed.
 
-The code-intelligence and C-V2X diagrams are site-authored summaries of the documented workflow, not measured results or screenshots. Three original demonstration videos are compressed for delivery and use native video controls. Roles are stated narrowly: first author where supported, graduate researcher for code intelligence, team organizer/backend developer for Healthcare, and team member for the walking-stick project.
+The code-intelligence diagram is a site-authored workflow summary. The C-V2X cover uses the exact Master RSU synchronization illustration extracted from the supplied thesis (PDF page 13). Healthcare uses the title slide shown in the user’s image, extracted from the supplied demo recording. Three original demonstration videos are compressed for delivery and use native video controls. Roles are stated narrowly: first author where supported, graduate researcher for code intelligence, team organizer/backend developer for Healthcare, and team member for the walking-stick project.
 
-The folders `projects/Target_manage`, `projects/SSPM`, and `serve/支教` are not published in this initial set: their specific role descriptions, final project naming, or desired placement were not specified. Original materials remain untouched. They can be added to the existing content model when that context is supplied.
+The folders `projects/Target_manage` and `projects/SSPM` are not published in this set: their specific role descriptions, final project naming, or desired placement were not specified. Original materials remain untouched. They can be added to the existing content model when that context is supplied.
 
 ## Future content updates
 
@@ -38,3 +38,10 @@ The folders `projects/Target_manage`, `projects/SSPM`, and `serve/支教` are no
 ## Template cleanup
 
 The old domain CNAME, author biographies, contact details, analytics IDs, counter script, Disqus, blogs, photographs, papers, logos and unused legacy JavaScript / styles were removed from the site source. `LICENSE` retains the required original copyright notice. Original template files were backed up locally to `/tmp/bo-site-template-backup.tar.gz` before replacement; the backup is not published.
+
+
+## Awards and volunteering update
+
+All 13 award entries now have images. Eight use corresponding certificates (including two rendered PDF certificates); the smart-city competition uses the supplied project-presentation cover, labeled as presentation material. Four lack a matching certificate in the source folder: HNU First Prize Scholarships for 2024–2025 and 2025–2026, and FZU Second Prize Scholarships for 2022–2023 and 2023–2024. These use a literal image excerpt of the supplied CV honors section, labeled “CV record · certificate not provided,” with a link to the CV. They are not presented as official certificates. The 2020–2021 and 2021–2022 FZU certificates explicitly cover the first semester, which is stated in their captions.
+
+The volunteer-teaching section uses the user’s stated dates, September 2024 to June 2025, and school name 亚周小学 (Yazhou Primary School), Minhou County, Fuzhou. It explicitly describes part-time volunteering alongside studies. Four supplied photos from `serve/支教` illustrate the section. No subject taught, teaching-hour count or full-time employment claim has been added.
