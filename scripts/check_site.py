@@ -14,6 +14,7 @@ class Page(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.ids = []
         self.links = []
+        self.anchors = []
         self.h1 = 0
         self.images = []
         self.lang = None
@@ -37,6 +38,8 @@ class Page(HTMLParser):
             self.images.append(a)
         if tag == 'iframe':
             self.iframes.append(a)
+        if tag == 'a':
+            self.anchors.append(a)
         if tag == 'a' and 'preview-card' in a.get('class', '').split():
             self.previews += 1
         if tag == 'video':
@@ -79,6 +82,12 @@ for file, page in pages.items():
     for iframe in page.iframes:
         if not iframe.get('src', '').startswith('https://www.youtube-nocookie.com/embed/') or not iframe.get('title') or iframe.get('loading') != 'lazy' or 'allowfullscreen' not in iframe or 'autoplay' in iframe.get('src', ''):
             errors.append(f'{name}: invalid YouTube embed or accessibility attributes')
+    for anchor in page.anchors:
+        destination = urlsplit(anchor.get('href', ''))
+        if destination.scheme in ['http', 'https'] and destination.netloc != 'boliupro.github.io':
+            relationship = set(anchor.get('rel', '').split())
+            if anchor.get('target') != '_blank' or not {'noopener', 'noreferrer'}.issubset(relationship):
+                errors.append(f'{name}: external link must open safely in a new tab: {anchor.get("href")}')
     if name not in ['404.html', 'cn/index.html'] and not {'en', 'zh-CN'}.issubset(page.alternates):
         errors.append(f'{name}: missing language alternates')
     for url in page.links:
@@ -128,6 +137,9 @@ for prefix in ['', 'zh/']:
     for link in ['https://anonymous.4open.science/r/MOTION-04C4', 'https://anonymous.4open.science/r/AgentApp-8202']:
         if publications is None or link not in publications.links:
             errors.append(f'{prefix}publications: missing anonymous repository {link}')
+    for link in ['https://github.com/BoLiupro/UniMob', 'https://github.com/BoLiupro/RAG2-MP']:
+        if publications is None or link not in publications.links:
+            errors.append(f'{prefix}publications: missing requested repository {link}')
     demo_ids = {'ai-voice-assistant': 'L_CBSocY_cs', 'smart-walking-stick': 'bkAdHsDHf14', 'healthcare': 'saCQTR9whzI'}
     project_index = pages.get(root / prefix / 'projects/index.html')
     expected_embeds = ['https://www.youtube-nocookie.com/embed/' + value for value in demo_ids.values()]
@@ -175,3 +187,4 @@ print('PASS: bilingual metadata, 10 papers per language, image descriptions, and
 print('PASS: requested paper order, profile links, 20 award evidence images, and volunteer galleries.')
 
 print("PASS: four homepage preview rows, anonymous code links, YouTube channel, and project repositories.")
+print('PASS: every external web link opens safely in a new tab; publication code buttons share one style.')

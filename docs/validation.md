@@ -38,3 +38,5 @@ The Mac’s system Ruby is 2.6. Temporary compatible build dependencies were ins
 - New positioning-error-analysis project has English and Chinese detail routes; MAEDE remains in Publications only.
 - Revised AgentApp, UniMob and positioning-analysis cover images were visually inspected against the source figures.
 - Live YouTube playback and responsive browser interaction were not tested; embed markup, IDs, accessibility attributes and destination mapping were checked in generated HTML.
+- Every external HTTP/HTTPS anchor opens in a new tab with `noopener noreferrer`; internal navigation and downloadable site resources stay in the current tab.
+- Electronic Keyboard replaces Music in both language variants. Publication GitHub and anonymous-code links use the same burgundy icon button as project source-code links.

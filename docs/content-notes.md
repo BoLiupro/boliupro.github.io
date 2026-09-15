@@ -34,6 +34,8 @@ All three demonstrations now use user-supplied YouTube IDs: AI voice assistant `
 
 The user's YouTube channel is linked in both language variants of the sidebar. AgentApp's anonymous repository was supplied by the user; MOTION's repository was extracted from its manuscript. AgentApp and UniMob covers were extracted from their full framework figures, matching the user's references.
 
+Publication code links include the user-supplied public repositories for UniMob (`BoLiupro/UniMob`) and RAG²-MP (`BoLiupro/RAG2-MP`). They use the same Source code treatment as project repositories.
+
 The folder `projects/Target_manage` remains outside the displayed portfolio because no specific project selection or description was requested for it.
 
 ## Future content updates

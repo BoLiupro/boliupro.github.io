@@ -61,8 +61,8 @@
 .preview-caption p{font-size:.8rem;line-height:1.65;color:var(--muted);margin-top:7px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
 .preview-track:focus-visible,.preview-card:focus-visible,.preview-controls button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 /* Source code is available at the start of each relevant project. */
-.project-actions{margin-top:19px}.project-actions .code-button{display:inline-flex;align-items:center;gap:7px;background:var(--accent);border-color:var(--accent);color:#fff}
-.project-actions .code-button:hover{background:#762332;color:#fff}.code-button svg{width:16px;height:16px;flex-shrink:0}
+.project-actions{margin-top:19px}.resource-links .code-button{display:inline-flex;align-items:center;gap:7px;background:var(--accent);border-color:var(--accent);color:#fff}
+.resource-links .code-button:hover{background:#762332;color:#fff}.code-button svg{width:16px;height:16px;flex-shrink:0}
 .youtube-player{aspect-ratio:16/9;width:100%;background:var(--soft);border:1px solid var(--line);border-radius:8px;overflow:hidden}
 .youtube-player iframe{display:block;width:100%;height:100%;border:0}
 .youtube-link{display:inline-block;font-size:.8125rem;margin-top:9px;text-decoration:underline;text-underline-offset:3px}

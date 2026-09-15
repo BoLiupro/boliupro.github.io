@@ -92,6 +92,7 @@
   alt:
     en: UniMob travel planner, unified spatial embeddings and diffusion-based mobility generator
     zh: UniMob 出行规划器、统一空间嵌入与扩散移动行为生成器
+  github: https://github.com/BoLiupro/UniMob
 - id: rag2-mp
   title: A Mobility Prediction Method Based on Retrieval-Augmented Generation and Gravity Model
   authors:
@@ -114,6 +115,7 @@
     en: RAG²-MP framework combining behavior retrieval, gravity modeling and LLM reasoning
     zh: RAG²-MP 融合行为检索、引力模型与 LLM 推理的框架
   title_zh: 基于检索增强生成与引力模型的用户移动行为预测
+  github: https://github.com/BoLiupro/RAG2-MP
 - id: cstnet
   title: Exploring Spatio-Temporal Carbon Emission Across Passenger Car Trajectory Data
   authors:

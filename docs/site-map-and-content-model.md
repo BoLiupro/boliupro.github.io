@@ -13,7 +13,7 @@ The main audience is prospective PhD supervisors and research collaborators. The
 | `/projects/` | `/zh/projects/` | Six research / engineering projects, including three video demos |
 | `/projects/<id>/` | `/zh/projects/<id>/` | Individual project story, framework or prototype, results where available, related papers and real resources |
 | `/awards/` | `/zh/awards/` | Year-based awards timeline with certificate or supporting-record images |
-| `/hobbies/` | `/zh/hobbies/` | Music, hiking, cycling, basketball and part-time volunteer-teaching photo galleries |
+| `/hobbies/` | `/zh/hobbies/` | Electronic keyboard, hiking, cycling, basketball and part-time volunteer-teaching photo galleries |
 | `/news/` | `/zh/news/` | Complete news archive |
 
 `/cn/` redirects to `/zh/`. The language switch always links to the equivalent page, including project details. `404.html`, `robots.txt` and `sitemap.xml` support discovery and missing-page navigation.
@@ -72,6 +72,8 @@ Year groups contain `items` with `title.en/zh`, `organization.en/zh`, optional `
 ## Design tokens and behavior
 
 Maximum width: 1180 px. White background, charcoal text, muted burgundy accent. Compact desktop sidebar; a stacked profile and expandable navigation on mobile. The header is sticky. Research interests are light bordered cards; publications and projects use figure-and-text rows; news and awards remain simple lists. Images load lazily except for the portrait. YouTube embeds load lazily, use descriptive titles and never autoplay. Content is fully rendered without JavaScript; JavaScript adds the mobile menu and optional scroll controls for the homepage preview rows.
+
+All external HTTP/HTTPS links open in a new tab with `noopener noreferrer`. Current templates render these attributes directly, and the shared JavaScript applies the same behavior to future links introduced through Markdown or data. GitHub and anonymous-code destinations use the burgundy Source code button treatment in both Publications and Projects; local PDFs and internal pages retain the outlined style.
 
 ## September 2026 content update
 

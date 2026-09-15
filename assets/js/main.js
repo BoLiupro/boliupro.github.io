@@ -1,5 +1,18 @@
 const toggle = document.querySelector('.nav-toggle');
 const navigation = document.querySelector('.main-nav');
+
+// Keep external destinations out of the current site tab, including future
+// links introduced through Markdown or shared data.
+document.querySelectorAll('a[href]').forEach(link => {
+  const destination = new URL(link.href, document.baseURI);
+  if (['http:', 'https:'].includes(destination.protocol) && destination.origin !== window.location.origin) {
+    link.target = '_blank';
+    const relationship = new Set(link.rel.split(/\s+/).filter(Boolean));
+    relationship.add('noopener');
+    relationship.add('noreferrer');
+    link.rel = [...relationship].join(' ');
+  }
+});
 if (toggle && navigation) {
   const close = () => { toggle.setAttribute('aria-expanded', 'false'); navigation.classList.remove('is-open'); };
   document.documentElement.classList.add('has-js');
