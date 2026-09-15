@@ -122,8 +122,8 @@ for prefix in ['', 'zh/']:
     ]
     if homepage is None or not all(url in homepage.links for url in required_links):
         errors.append(f'{prefix}index.html: missing requested profile or advisor link')
-    if homepage is None or homepage.previews != 34 or not all('preview-' + section in homepage.ids for section in ['publications', 'projects', 'awards', 'hobbies']):
-        errors.append(f'{prefix}index.html: expected four preview rows with 10/6/13/5 items')
+    if homepage is None or homepage.previews != 41 or not all('preview-' + section in homepage.ids for section in ['publications', 'projects', 'awards', 'hobbies']):
+        errors.append(f'{prefix}index.html: expected four preview rows with 10/6/20/5 items')
     publications = pages.get(root / prefix / 'publications/index.html')
     for link in ['https://anonymous.4open.science/r/MOTION-04C4', 'https://anonymous.4open.science/r/AgentApp-8202']:
         if publications is None or link not in publications.links:
@@ -144,8 +144,8 @@ for prefix in ['', 'zh/']:
     if root / prefix / 'projects/positioning-error-analysis/index.html' not in pages:
         errors.append(f'{prefix}projects: missing positioning error analysis project')
     awards = pages.get(root / prefix / 'awards/index.html')
-    if awards is None or len(awards.images) != 13:
-        errors.append(f'{prefix}awards: expected evidence images for all 13 awards')
+    if awards is None or len(awards.images) != 20:
+        errors.append(f'{prefix}awards: expected evidence images for all 20 awards')
     hobbies = pages.get(root / prefix / 'hobbies/index.html')
     if hobbies is None or 'volunteering-title' not in hobbies.ids or len(hobbies.images) != 20:
         errors.append(f'{prefix}hobbies: missing volunteer section or gallery photos')
@@ -172,6 +172,6 @@ if errors:
     sys.exit(1)
 print(f'PASS: {len(pages)} HTML pages; 24 sitemap routes; all local resources and anchors resolve.')
 print('PASS: bilingual metadata, 10 papers per language, image descriptions, and lazy-loaded YouTube demos.')
-print('PASS: requested paper order, profile links, 13 award evidence images, and volunteer galleries.')
+print('PASS: requested paper order, profile links, 20 award evidence images, and volunteer galleries.')
 
 print("PASS: four homepage preview rows, anonymous code links, YouTube channel, and project repositories.")

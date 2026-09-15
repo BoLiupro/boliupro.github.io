@@ -58,14 +58,13 @@
       en: 2024–2025 academic year
       zh: 2024–2025 学年
     evidence:
-      image: /assets/images/awards/cv-honours.webp
+      image: /assets/images/awards/hnu-scholarship-2024-support.webp
       label:
-        en: CV record · certificate not provided
-        zh: 简历记录 · 尚未提供对应证书
+        en: Supporting record
+        zh: 证明材料
       alt:
-        en: First Prize Scholarship — CV record · certificate not provided
-        zh: 一等奖学金 — 简历记录 · 尚未提供对应证书
-      source: /assets/files/Bo-Liu-CV.pdf
+        en: First Prize Scholarship — supporting record showing Bo Liu's scholarship level
+        zh: 一等奖学金 — 标注刘博评奖等级的证明材料
   - title:
       en: Excellent Graduate
       zh: 优秀毕业生
@@ -98,26 +97,81 @@
         en: Second Prize Scholarship — CV record · certificate not provided
         zh: 二等奖学金 — 简历记录 · 尚未提供对应证书
       source: /assets/files/Bo-Liu-CV.pdf
+  - title:
+      en: Champion
+      zh: 冠军
+    organization:
+      en: 2024 Fuzhou University Basketball League
+      zh: 2024 年福州大学篮球联赛
+    evidence:
+      image: /assets/images/awards/campus-basketball-2024.webp
+      label:
+        en: Medal
+        zh: 获奖奖牌
+      alt:
+        en: Champion medal from the 2024 Fuzhou University Basketball League
+        zh: 2024 年福州大学篮球联赛冠军奖牌
+  - title:
+      en: Top Ten Singer & Most Popular Performer
+      zh: 十佳歌手与最佳人气奖
+    organization:
+      en: 2024 College Singing Competition
+      zh: 2024 年学院歌手赛
+    evidence:
+      image: /assets/images/awards/top-ten-singer-2024.webp
+      label:
+        en: Trophies
+        zh: 获奖奖杯
+      alt:
+        en: Top Ten Singer and Most Popular Performer trophies from the 2024 college singing competition
+        zh: 2024 年学院歌手赛十佳歌手与最佳人气奖杯
 - year: '2023'
   items:
   - title:
-      en: Second Prize Scholarship
-      zh: 二等奖学金
+      en: Third Prize Scholarship
+      zh: 三等奖学金
     organization:
       en: Fuzhou University
       zh: 福州大学
     note:
-      en: 2022–2023 academic year
-      zh: 2022–2023 学年
+      en: First semester of the 2022–2023 academic year
+      zh: 2022–2023 学年第一学期
     evidence:
-      image: /assets/images/awards/cv-honours.webp
+      image: /assets/images/awards/fzu-scholarship-third-2023.webp
       label:
-        en: CV record · certificate not provided
-        zh: 简历记录 · 尚未提供对应证书
+        en: Certificate
+        zh: 获奖证书
       alt:
-        en: Second Prize Scholarship — CV record · certificate not provided
-        zh: 二等奖学金 — 简历记录 · 尚未提供对应证书
-      source: /assets/files/Bo-Liu-CV.pdf
+        en: Third Prize Scholarship — Certificate
+        zh: 三等奖学金 — 获奖证书
+  - title:
+      en: First Place
+      zh: 第一名
+    organization:
+      en: “Dream Basketball, Celebrate China” 3v3 Basketball Tournament
+      zh: “梦想之篮，礼颂华诞”3v3 篮球赛
+    evidence:
+      image: /assets/images/awards/three-on-three-champion-2023.webp
+      label:
+        en: Medal
+        zh: 获奖奖牌
+      alt:
+        en: First-place medal from the 3v3 basketball tournament
+        zh: 3v3 篮球赛第一名奖牌
+  - title:
+      en: Most Valuable Player
+      zh: 最佳球员奖
+    organization:
+      en: “Dream Basketball, Celebrate China” 3v3 Basketball Tournament
+      zh: “梦想之篮，礼颂华诞”3v3 篮球赛
+    evidence:
+      image: /assets/images/awards/three-on-three-mvp-2023.webp
+      label:
+        en: Trophy
+        zh: 获奖奖杯
+      alt:
+        en: Most Valuable Player trophy from the 3v3 basketball tournament
+        zh: 3v3 篮球赛最佳球员奖杯
 - year: '2022'
   items:
   - title:
@@ -169,6 +223,23 @@
       alt:
         en: Second Prize Scholarship — Certificate
         zh: 二等奖学金 — 获奖证书
+  - title:
+      en: Admission to West2 Online Studio
+      zh: 入选西二在线工作室
+    organization:
+      en: West2 Online Studio, Fuzhou University
+      zh: 福州大学西二在线工作室
+    note:
+      en: 14th cohort · Java track
+      zh: 第 14 届正式成员 · Java 方向
+    evidence:
+      image: /assets/images/awards/west2-admission-2022.webp
+      label:
+        en: Certificate of admission
+        zh: 录取证书
+      alt:
+        en: Certificate of admission to the 14th cohort of West2 Online Studio
+        zh: 福州大学西二在线工作室第 14 届正式成员录取证书
 - year: '2021'
   items:
   - title:
@@ -223,3 +294,34 @@
       alt:
         en: Second Prize Scholarship — Certificate
         zh: 二等奖学金 — 获奖证书
+  - title:
+      en: Fujian Division Second Prize
+      zh: 福建赛区本科组二等奖
+    organization:
+      en: China Undergraduate Mathematical Contest in Modeling
+      zh: 全国大学生数学建模竞赛
+    evidence:
+      image: /assets/images/awards/modeling-fujian-2021.webp
+      label:
+        en: Certificate
+        zh: 获奖证书
+      alt:
+        en: Fujian Division Second Prize in the 2021 China Undergraduate Mathematical Contest in Modeling
+        zh: 2021 年全国大学生数学建模竞赛福建赛区本科组二等奖证书
+  - title:
+      en: Fourth Place
+      zh: 殿军
+    organization:
+      en: Fuzhou University Freshman Basketball League
+      zh: 福州大学新生篮球联赛
+    note:
+      en: 2020 competition · certificate issued in April 2021
+      zh: 2020 年赛事 · 证书于 2021 年 4 月颁发
+    evidence:
+      image: /assets/images/awards/freshman-basketball-2021.webp
+      label:
+        en: Certificate
+        zh: 获奖证书
+      alt:
+        en: Fourth-place certificate from the 2020 Fuzhou University Freshman Basketball League
+        zh: 2020 年福州大学新生篮球联赛殿军证书

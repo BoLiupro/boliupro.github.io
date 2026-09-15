@@ -83,6 +83,6 @@ Volunteer teaching is stored in `_data/volunteering.yml` and appended to Hobbies
 
 ## Homepage previews
 
-`ui.en/zh.previews` defines the four section labels and their “All…” links. `_includes/home-previews.html` reads the existing publication, project, award, hobby and volunteering data, avoiding duplicate content records. The rows currently contain 10 publications, 6 projects, 13 awards and 5 hobby / volunteering entries. Publication cards link to paper anchors; project cards link to detail pages; awards and hobbies link to the matching timeline or gallery section.
+`ui.en/zh.previews` defines the four section labels and their “All…” links. `_includes/home-previews.html` reads the existing publication, project, award, hobby and volunteering data, avoiding duplicate content records. The rows currently contain 10 publications, 6 projects, 20 awards and 5 hobby / volunteering entries. Publication cards link to paper anchors; project cards link to detail pages; awards and hobbies link to the matching timeline or gallery section.
 
 Desktop rows show four cards, medium-width screens show two, and narrow phones show one with a partial next card. Native scrolling remains usable without JavaScript. Buttons and keyboard arrows provide additional navigation, with reduced-motion preferences respected. Update the corresponding shared data to change the previews.
