@@ -7,7 +7,7 @@ permalink: /
 translation: /zh/
 ---
 
-Hi! I am **Bo Liu (刘博)**, a third-year Master’s student at the **College of Computer Science and Electronic Engineering, Hunan University**, and the **National Supercomputing Center in Changsha**. I am fortunate to be advised by **[Zhu Xiao](https://csee.hnu.edu.cn/people/xiaozhu){: target="_blank" rel="noopener noreferrer" }** and **[Tong Li](https://tong89.github.io/tongli.github.io/){: target="_blank" rel="noopener noreferrer" }**. My work has been published or accepted in **IEEE Transactions on Intelligent Transportation Systems, IEEE Transactions on Services Computing, and Chinese Journal of Computers**, with ongoing work under review or revision at major AI and data mining venues.
+Hi! I am **Bo Liu (刘博)**, a third-year Master’s student at the **College of Computer Science and Electronic Engineering, Hunan University**, and the **National Supercomputing Center in Changsha**. I am fortunate to be advised by **[Zhu Xiao](https://csee.hnu.edu.cn/people/xiaozhu){: target="_blank" rel="noopener noreferrer" }** and **[Tong Li](https://tong89.github.io/tongli.github.io/){: target="_blank" rel="noopener noreferrer" }**. My work has been published or accepted in IEEE Transactions on Services Computing (TSC), IEEE Transactions on Intelligent Transportation Systems (T-ITS), and Chinese Journal of Computers (CJC), with ongoing work under review or revision at KDD, AAAI, IEEE Transactions on Knowledge and Data Engineering (TKDE), ACM Transactions on Intelligent Systems and Technology (TIST), and Analytic Methods in Accident Research (AMAR).
 
 My research has developed through four connected stages, moving from spatiotemporal modeling toward agents that reason about people and structured environments:
 

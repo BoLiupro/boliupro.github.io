@@ -40,3 +40,5 @@ The Mac’s system Ruby is 2.6. Temporary compatible build dependencies were ins
 - Live YouTube playback and responsive browser interaction were not tested; embed markup, IDs, accessibility attributes and destination mapping were checked in generated HTML.
 - Every external HTTP/HTTPS anchor opens in a new tab with `noopener noreferrer`; internal navigation and downloadable site resources stay in the current tab.
 - Electronic Keyboard replaces Music in both language variants. Publication GitHub and anonymous-code links use the same burgundy icon button as project source-code links.
+- The sidebar contains the official Hunan University emblem and no longer displays the short profile-note sentence.
+- LLMApp is Published; UniMob links to arXiv:2602.19694; AI Voice Assistant and Walking Stick expose their supplied GitHub repositories.

@@ -36,6 +36,10 @@ The user's YouTube channel is linked in both language variants of the sidebar. A
 
 Publication code links include the user-supplied public repositories for UniMob (`BoLiupro/UniMob`) and RAG²-MP (`BoLiupro/RAG2-MP`). They use the same Source code treatment as project repositories.
 
+UniMob's arXiv destination is the title-matched record `arXiv:2602.19694`. The AI Voice Assistant and Walking Stick projects link to the user-supplied `BoLiupro/SoundRecognize` and `BoLiupro/Walking-Stick-with-Heart-Attack-Detection` repositories. LLMApp is displayed as Published.
+
+The sidebar emblem is the official standalone Hunan University emblem from the Hunan University Office's “湖南大学校徽” page. It is converted to WebP for the site and links to the university homepage. The short profile note below the contact links has been removed.
+
 The folder `projects/Target_manage` remains outside the displayed portfolio because no specific project selection or description was requested for it.
 
 ## Future content updates

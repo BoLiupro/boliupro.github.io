@@ -56,7 +56,7 @@
   - Kenli Li
   venue: IEEE Transactions on Services Computing (TSC)
   year: 2026
-  status: accepted
+  status: published
   group: published
   summary:
     en: A hierarchical framework that compresses behavioral history, interprets context, and uses LLM reasoning
@@ -93,6 +93,7 @@
     en: UniMob travel planner, unified spatial embeddings and diffusion-based mobility generator
     zh: UniMob 出行规划器、统一空间嵌入与扩散移动行为生成器
   github: https://github.com/BoLiupro/UniMob
+  arxiv: https://arxiv.org/abs/2602.19694
 - id: rag2-mp
   title: A Mobility Prediction Method Based on Retrieval-Augmented Generation and Gravity Model
   authors:

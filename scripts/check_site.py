@@ -131,6 +131,11 @@ for prefix in ['', 'zh/']:
     ]
     if homepage is None or not all(url in homepage.links for url in required_links):
         errors.append(f'{prefix}index.html: missing requested profile or advisor link')
+    if homepage is None or not any(image.get('src') == '/assets/images/hnu-logo.webp' for image in homepage.images):
+        errors.append(f'{prefix}index.html: missing Hunan University logo')
+    homepage_html = (root / prefix / 'index.html').read_text()
+    if 'Intelligent agents, human behavior, and the environments we share.' in homepage_html or '研究智能体、人类行为与我们共同生活的环境。' in homepage_html:
+        errors.append(f'{prefix}index.html: removed profile note is still visible')
     if homepage is None or homepage.previews != 41 or not all('preview-' + section in homepage.ids for section in ['publications', 'projects', 'awards', 'hobbies']):
         errors.append(f'{prefix}index.html: expected four preview rows with 10/6/20/5 items')
     publications = pages.get(root / prefix / 'publications/index.html')
@@ -140,6 +145,13 @@ for prefix in ['', 'zh/']:
     for link in ['https://github.com/BoLiupro/UniMob', 'https://github.com/BoLiupro/RAG2-MP']:
         if publications is None or link not in publications.links:
             errors.append(f'{prefix}publications: missing requested repository {link}')
+    if publications is None or 'https://arxiv.org/abs/2602.19694' not in publications.links:
+        errors.append(f'{prefix}publications: missing UniMob arXiv record')
+    publication_html = (root / prefix / 'publications/index.html').read_text()
+    published_label = '>已发表</span>' if prefix else '>Published</span>'
+    llmapp_fragment = publication_html.split('id="llmapp"', 1)[-1].split('</article>', 1)[0]
+    if 'id="llmapp"' not in publication_html or published_label not in llmapp_fragment:
+        errors.append(f'{prefix}publications: LLMApp must be marked published')
     demo_ids = {'ai-voice-assistant': 'L_CBSocY_cs', 'smart-walking-stick': 'bkAdHsDHf14', 'healthcare': 'saCQTR9whzI'}
     project_index = pages.get(root / prefix / 'projects/index.html')
     expected_embeds = ['https://www.youtube-nocookie.com/embed/' + value for value in demo_ids.values()]
@@ -149,7 +161,7 @@ for prefix in ['', 'zh/']:
         detail = pages.get(root / prefix / 'projects' / slug / 'index.html')
         if detail is None or [frame['src'] for frame in detail.iframes] != ['https://www.youtube-nocookie.com/embed/' + video_id]:
             errors.append(f'{prefix}projects/{slug}: missing corresponding YouTube demo')
-    for slug, repository in [('healthcare', 'HealthCare_V2'), ('c-v2x', 'C-V2X')]:
+    for slug, repository in [('ai-voice-assistant', 'SoundRecognize'), ('smart-walking-stick', 'Walking-Stick-with-Heart-Attack-Detection'), ('healthcare', 'HealthCare_V2'), ('c-v2x', 'C-V2X')]:
         detail = pages.get(root / prefix / 'projects' / slug / 'index.html')
         if detail is None or 'https://github.com/BoLiupro/' + repository not in detail.links:
             errors.append(f'{prefix}projects/{slug}: missing source code')
@@ -161,6 +173,10 @@ for prefix in ['', 'zh/']:
     hobbies = pages.get(root / prefix / 'hobbies/index.html')
     if hobbies is None or 'volunteering-title' not in hobbies.ids or len(hobbies.images) != 20:
         errors.append(f'{prefix}hobbies: missing volunteer section or gallery photos')
+    hobby_html = (root / prefix / 'hobbies/index.html').read_text()
+    expected_hiking = '<h2>徒步</h2>' if prefix else '<h2>Hiking</h2>'
+    if expected_hiking not in hobby_html:
+        errors.append(f'{prefix}hobbies: Hiking title was not updated')
 
 for file in root.rglob('*'):
     if file.is_file() and file.stat().st_size >= 100 * 1024 * 1024:
@@ -188,3 +204,4 @@ print('PASS: requested paper order, profile links, 20 award evidence images, and
 
 print("PASS: four homepage preview rows, anonymous code links, YouTube channel, and project repositories.")
 print('PASS: every external web link opens safely in a new tab; publication code buttons share one style.')
+print('PASS: HNU logo, revised About copy, UniMob arXiv, published LLMApp status, and added project code links.')

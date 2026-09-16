@@ -43,6 +43,7 @@
     alt: AI 语音助手原型演示
     video_caption: 中文原型演示。
   youtube_id: L_CBSocY_cs
+  github: https://github.com/BoLiupro/SoundRecognize
 - id: smart-walking-stick
   cover: /assets/images/projects/smart-walking-stick.webp
   tags:
@@ -69,6 +70,7 @@
     short_title: 智能手杖与心率预警
   report: /assets/files/projects/smart-walking-stick-report.pdf
   youtube_id: bkAdHsDHf14
+  github: https://github.com/BoLiupro/Walking-Stick-with-Heart-Attack-Detection
 - id: healthcare
   cover: /assets/images/projects/healthcare.webp
   tags:

@@ -22,7 +22,7 @@ The main audience is prospective PhD supervisors and research collaborators. The
 
 ### Profile
 
-`email`, `secondary_email`, `github`, `scholar`, `youtube` are shared. The `en` and `zh` blocks contain role, college, center, location, photo alt text, CV label and profile note.
+`email`, `secondary_email`, `github`, `scholar`, `youtube` are shared. The `en` and `zh` blocks contain role, college, center, location, photo alt text and the CV label. The sidebar also displays the official Hunan University emblem.
 
 ### Publication
 
@@ -34,7 +34,7 @@ The main audience is prospective PhD supervisors and research collaborators. The
 - `group`: `published` (published / accepted) or `review` (revision / review).
 - `summary.en`, `summary.zh`, `alt.en`, `alt.zh`: localized descriptions and accessible image text.
 - `pdf`, `cover`: existing local file paths.
-- Optional `doi`, `github`, `anonymous`, `project`: real destinations only; missing resources produce no empty buttons.
+- Optional `doi`, `arxiv`, `github`, `anonymous`, `project`: real destinations only; missing resources produce no empty buttons.
 
 Statuses never change automatically with the calendar. Update `status` and `group` together when a paper changes state, then add a news item if appropriate.
 
