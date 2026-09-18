@@ -1,5 +1,14 @@
 # Validation
 
+## Target management project — 18 September 2026
+
+- Added English and Chinese `target-manage` detail pages, with links from each homepage and Projects list.
+- Seven project records now generate 42 homepage preview cards, 28 HTML pages and 26 unique sitemap routes.
+- The supplied architecture image is served as WebP, with localized image descriptions. The personal-role line is omitted when no role is provided.
+- Jekyll production build, generated-site resource and anchor validation, bilingual route checks and Git whitespace checks passed.
+
+## Previous validation
+
 Validated on 15 September 2026.
 
 - Jekyll 3.10 production build with strict front matter: passed.

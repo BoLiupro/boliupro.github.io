@@ -22,7 +22,7 @@ The supplied `BoLiu_CV.pdf`, the ten PDFs in `papers/`, the corresponding paper 
 
 ## Project selection
 
-Six projects are displayed: enterprise asset extraction with knowledge graphs and coding agents, an AI voice assistant, a walking stick with heart-rate alerts, Healthcare, C-V2X synchronous positioning, and electronic-reconnaissance positioning error analysis. MOTION, AgentApp and MAEDE appear only as papers; their project records and detail pages have been removed.
+Seven projects are displayed: enterprise asset extraction with knowledge graphs and coding agents, target characteristic extraction and management, an AI voice assistant, a walking stick with heart-rate alerts, Healthcare, C-V2X synchronous positioning, and electronic-reconnaissance positioning error analysis. MOTION, AgentApp and MAEDE appear only as papers; their project records and detail pages have been removed.
 
 The enterprise project is expanded from `projects/Agentic_Code/知识图谱构建方案调研_v2.pptx`. Its cover is an English SVG adaptation of the knowledge-graph construction slide, using the original graph illustration. The nine entity types, explicit-evidence-first relationships, Neo4j design and office-automation example follow that proposal. The text distinguishes the ongoing design from completed deployment or benchmark results.
 
@@ -40,7 +40,7 @@ UniMob's arXiv destination is the title-matched record `arXiv:2602.19694`. The A
 
 The sidebar emblem is the official standalone Hunan University emblem from the Hunan University Office's “湖南大学校徽” page. It is converted to WebP for the site and links to the university homepage. The short profile note below the contact links has been removed.
 
-The folder `projects/Target_manage` remains outside the displayed portfolio because no specific project selection or description was requested for it.
+The `target-manage` project is based on `projects/Target_manage/【非密】目标特性提取与管理软件验收PPT.pdf`, particularly its overview, architecture, data-management functions and testing summary. The cover is the supplied three-layer architecture image `133e4416cf0cd6011c1e9a307941f87c.jpg`, converted to WebP. The bilingual pages summarize the software at portfolio level; the original acceptance deck is not a downloadable site asset. November 2025, the 41 test cases and Kylin deployment come from the deck, and results are attributed to the project-level report. No personal role or public repository is asserted without confirmation.
 
 ## Future content updates
 

@@ -4,7 +4,7 @@ layout: default
 {% assign t = site.data.ui[page.lang] %}{% assign prefix = '' %}{% if page.lang == 'zh' %}{% assign prefix = '/zh' %}{% endif %}{% assign project = site.data.projects | where: 'id', page.project_id | first %}{% assign c = project[page.lang] %}
 <article class="project-detail">
 <a class="back-link" href="{{ prefix | append: '/projects/' | relative_url }}">← {{ t.back_projects }}</a>
-<header class="project-detail-heading"><p class="eyebrow">{{ c.category }}</p><h1>{{ c.title }}</h1><p class="page-intro">{{ c.summary }}</p><p class="project-role"><strong>{{ t.role }}:</strong> {{ c.role }}</p><ul class="tags">{% for tag in project.tags %}<li>{{ tag }}</li>{% endfor %}</ul>{% include project-actions.html %}</header>
+<header class="project-detail-heading"><p class="eyebrow">{{ c.category }}</p><h1>{{ c.title }}</h1><p class="page-intro">{{ c.summary }}</p>{% if c.role %}<p class="project-role"><strong>{{ t.role }}:</strong> {{ c.role }}</p>{% endif %}<ul class="tags">{% for tag in project.tags %}<li>{{ tag }}</li>{% endfor %}</ul>{% include project-actions.html %}</header>
 <figure class="project-hero"><img src="{{ project.cover | relative_url }}" alt="{{ c.alt | escape }}" width="1000" height="560"><figcaption>{{ c.alt }}</figcaption></figure>
 <div class="project-prose">{{ content }}</div>
 {% if project.youtube_id %}<section id="demo" class="project-demo"><h2>{{ t.video_demo }}</h2>{% include youtube.html project=project %}<p class="video-caption">{{ c.video_caption }}</p></section>{% endif %}

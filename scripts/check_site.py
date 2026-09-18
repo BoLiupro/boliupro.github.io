@@ -136,8 +136,8 @@ for prefix in ['', 'zh/']:
     homepage_html = (root / prefix / 'index.html').read_text()
     if 'Intelligent agents, human behavior, and the environments we share.' in homepage_html or '研究智能体、人类行为与我们共同生活的环境。' in homepage_html:
         errors.append(f'{prefix}index.html: removed profile note is still visible')
-    if homepage is None or homepage.previews != 41 or not all('preview-' + section in homepage.ids for section in ['publications', 'projects', 'awards', 'hobbies']):
-        errors.append(f'{prefix}index.html: expected four preview rows with 10/6/20/5 items')
+    if homepage is None or homepage.previews != 42 or not all('preview-' + section in homepage.ids for section in ['publications', 'projects', 'awards', 'hobbies']):
+        errors.append(f'{prefix}index.html: expected four preview rows with 10/7/20/5 items')
     publications = pages.get(root / prefix / 'publications/index.html')
     for link in ['https://anonymous.4open.science/r/MOTION-04C4', 'https://anonymous.4open.science/r/AgentApp-8202']:
         if publications is None or link not in publications.links:
@@ -190,15 +190,15 @@ try:
     sitemap = ET.parse(root / 'sitemap.xml')
     ns = {'s': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
     urls = [item.text for item in sitemap.findall('.//s:loc', ns)]
-    if len(urls) != 24 or len(set(urls)) != 24:
-        errors.append(f'Sitemap must contain 24 unique content pages; found {len(urls)}')
+    if len(urls) != 26 or len(set(urls)) != 26:
+        errors.append(f'Sitemap must contain 26 unique content pages; found {len(urls)}')
 except (OSError, ET.ParseError) as exc:
     errors.append(f'Invalid sitemap: {exc}')
 
 if errors:
     print('\n'.join(errors))
     sys.exit(1)
-print(f'PASS: {len(pages)} HTML pages; 24 sitemap routes; all local resources and anchors resolve.')
+print(f'PASS: {len(pages)} HTML pages; 26 sitemap routes; all local resources and anchors resolve.')
 print('PASS: bilingual metadata, 10 papers per language, image descriptions, and lazy-loaded YouTube demos.')
 print('PASS: requested paper order, profile links, 20 award evidence images, and volunteer galleries.')
 

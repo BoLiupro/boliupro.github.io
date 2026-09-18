@@ -10,7 +10,7 @@ The main audience is prospective PhD supervisors and research collaborators. The
 | --- | --- | --- |
 | `/` | `/zh/` | Profile, About Me, Fall 2027 PhD notice, four research interests, seven recent news items, four horizontal preview rows |
 | `/publications/` | `/zh/publications/` | 10 visual paper entries in the requested research order; each retains its status badge |
-| `/projects/` | `/zh/projects/` | Six research / engineering projects, including three video demos |
+| `/projects/` | `/zh/projects/` | Seven research / engineering projects, including three video demos |
 | `/projects/<id>/` | `/zh/projects/<id>/` | Individual project story, framework or prototype, results where available, related papers and real resources |
 | `/awards/` | `/zh/awards/` | Year-based awards timeline with certificate or supporting-record images |
 | `/hobbies/` | `/zh/hobbies/` | Electronic keyboard, hiking, cycling, basketball and part-time volunteer-teaching photo galleries |
@@ -41,13 +41,13 @@ Statuses never change automatically with the calendar. Update `status` and `grou
 ### Project
 
 - `id`, `cover`, `tags`: identity and visual metadata.
-- `en`, `zh`: title, summary, role, category, image description, optional video caption and compact `short_title` for homepage previews.
+- `en`, `zh`: title, summary, category, image description, optional role, video caption and compact `short_title` for homepage previews.
 - Optional `papers`: publication IDs, resolved into paper cards on the detail page.
 - Optional `youtube_id`, `report`, `github`, `external`: available resources.
 - Optional `contain`: keeps framework images visible in full within cards.
 - Two Markdown collection documents store localized long-form content and explicit `permalink` / `translation` fields.
 
-Project records cover enterprise asset extraction and coding agents, an AI voice assistant, a walking stick, Healthcare, C-V2X positioning, and positioning error analysis. MOTION, AgentApp and MAEDE appear only in Publications. Use Overview, Motivation, Method and Results when supported. Video, gallery, dataset and code sections should appear only when the corresponding material exists.
+Project records cover enterprise asset extraction and coding agents, target characteristic extraction and management, an AI voice assistant, a walking stick, Healthcare, C-V2X positioning, and positioning error analysis. MOTION, AgentApp and MAEDE appear only in Publications. Use Overview, Motivation, Method and Results when supported. Video, gallery, dataset and code sections should appear only when the corresponding material exists.
 
 ### News
 
@@ -85,6 +85,6 @@ Volunteer teaching is stored in `_data/volunteering.yml` and appended to Hobbies
 
 ## Homepage previews
 
-`ui.en/zh.previews` defines the four section labels and their “All…” links. `_includes/home-previews.html` reads the existing publication, project, award, hobby and volunteering data, avoiding duplicate content records. The rows currently contain 10 publications, 6 projects, 20 awards and 5 hobby / volunteering entries. Publication cards link to paper anchors; project cards link to detail pages; awards and hobbies link to the matching timeline or gallery section.
+`ui.en/zh.previews` defines the four section labels and their “All…” links. `_includes/home-previews.html` reads the existing publication, project, award, hobby and volunteering data, avoiding duplicate content records. The rows currently contain 10 publications, 7 projects, 20 awards and 5 hobby / volunteering entries. Publication cards link to paper anchors; project cards link to detail pages; awards and hobbies link to the matching timeline or gallery section.
 
 Desktop rows show four cards, medium-width screens show two, and narrow phones show one with a partial next card. Native scrolling remains usable without JavaScript. Buttons and keyboard arrows provide additional navigation, with reduced-motion preferences respected. Update the corresponding shared data to change the previews.

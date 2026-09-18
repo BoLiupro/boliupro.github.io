@@ -21,6 +21,27 @@
     alt: 企业应用知识图谱：通过明确关系连接九类软件资产
     short_title: 企业资产与编码智能体
   contain: true
+- id: target-manage
+  cover: /assets/images/projects/target-manage.webp
+  contain: true
+  tags:
+  - Remote Sensing
+  - Vue 3
+  - Spring Boot
+  - Python
+  - Data Management
+  en:
+    title: Target Characteristic Extraction and Management Software
+    short_title: Remote Sensing Feature Management
+    summary: A browser-based system for organizing multi-source satellite imagery, reviewing extracted object characteristics, and managing structured records and exports through an integrated workflow.
+    category: Remote sensing software · 2025
+    alt: Three-layer system architecture connecting the application interface, feature management and processing services, Redis, and the Kingbase database
+  zh:
+    title: 目标特性提取与管理软件
+    short_title: 遥感目标特性提取与管理
+    summary: 面向多源卫星影像的浏览器端软件，集成影像预览、目标特性查看、数据维护与规范化导出，连接特性处理和数据管理流程。
+    category: 遥感软件系统 · 2025
+    alt: 连接应用界面、特性管理与处理服务、Redis 和金仓数据库的三层系统架构
 - id: ai-voice-assistant
   cover: /assets/images/projects/ai-voice-assistant.webp
   tags:
