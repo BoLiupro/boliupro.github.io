@@ -70,6 +70,12 @@
 .demo-gallery>h2{margin-bottom:22px}.demo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 22px}
 .demo-card{min-width:0}.demo-card h3{font-size:1rem;font-weight:550;line-height:1.6;margin-top:9px}.demo-card h3 a{color:var(--ink)}
 .hobby-section,.award-entry{scroll-margin-top:100px}
+.research-intro{margin-bottom:20px;line-height:1.8;color:var(--muted)}
+.interest-heading{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px 12px;margin-bottom:9px}
+.interest-heading .interest-number{margin-bottom:0}
+.interest-scope{font-size:.875rem;color:var(--accent)}
+.interest-card .interest-description{font-size:1rem;line-height:1.75;color:var(--ink)}
+.phd-notice .resource-links a{flex-wrap:wrap;font-size:.875rem;padding:7px 12px}
 @media(max-width:760px){.home-previews{margin-top:38px;padding-top:28px}.preview-track{grid-auto-columns:calc((100% - 16px)/2);gap:16px}.preview-navigation{gap:10px}.preview-section .section-heading{gap:12px;flex-wrap:wrap}.preview-controls button{width:32px;height:32px}.demo-grid{grid-template-columns:minmax(0,1fr)}.about-copy p,.about-copy li{hyphens:auto}}
 @media(max-width:480px){.preview-track{grid-auto-columns:82%}.preview-section .section-heading h2{font-size:1.2rem}.preview-navigation{width:100%;justify-content:space-between}}
 @media print{.preview-track{grid-auto-flow:row;grid-template-columns:repeat(4,minmax(0,1fr));overflow:visible}.preview-controls,.youtube-player{display:none}.preview-card{break-inside:avoid}}

@@ -16,9 +16,10 @@ The supplied `BoLiu_CV.pdf`, the ten PDFs in `papers/`, the corresponding paper 
 - The February 2025 carbon-emission news is labeled **published / appeared in volume 26(2)**, rather than an acceptance on that date. The supplied paper supports the issue date.
 - News dates supplied in the user brief are preserved. Year-only / academic-year records are not given invented exact dates.
 - The 2021 Internet+ national silver award is confirmed by the certificate, which names Bo Liu as a team member. It was added even though omitted from the shorter CV.
-- The supplied PDF CV remains the download. It has not been silently rewritten; updating it to contain all ten papers is a separate document edit.
+- The current CV download is an unchanged copy of `/Users/liubo/Desktop/LB_CV-v3.pdf`, stored as `assets/files/Bo-Liu-CV-v3.pdf`. It lists selected papers; the website retains all ten. The older PDF remains available for existing evidence links.
 - PhD opportunities refer to **Fall 2027**. The Master’s degree period in the CV is September 2024 to June 2027.
-- Robotics, embodied intelligence and human-centered AI are presented as broad future interests, not claims of established publication output in those fields.
+- The research interests follow slide 15 of `HNU_BoLiu_v0.pptx` and the supplied Research Vision image. Spatiotemporal Intelligence is first and labeled Current research. Spatial Understanding, Embodied Intelligence and Human–AI Interaction are labeled PhD direction, with multimodal 3D understanding, physical interaction, and AR / wearable / robotic interfaces described as future interests.
+- The PhD notice includes an original-file download of `/Users/liubo/Desktop/HNU/Phd/套磁/HNU_BoLiu_v0.pptx`, stored as `assets/files/Bo-Liu-Self-Introduction.pptx` (16 slides, approximately 31 MiB). Both uploaded documents are copied without editing their contents. The CV reports undergraduate GPA 3.84/4; slide 4 reports 3.89/4. This discrepancy is not resolved by modifying either original.
 
 ## Project selection
 
@@ -45,7 +46,7 @@ The `target-manage` project is based on `projects/Target_manage/【非密】目�
 ## Future content updates
 
 - Optional: provide the complete public author lists for anonymous manuscripts if `et al.` should be expanded.
-- Optional: update the downloadable PDF CV to match the Word CV.
+- Optional: reconcile undergraduate GPA between the supplied CV and self-introduction slides.
 - Optional: add public code, arXiv, dataset and interactive-demo links as they become available. No placeholder resources are displayed.
 - Project demonstrations use the supplied YouTube links. No unprovided interactive research demo is simulated or claimed.
 

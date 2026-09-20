@@ -1,5 +1,12 @@
 # Validation
 
+## Research vision and application materials — 19 September 2026
+
+- Both homepages show Spatiotemporal Intelligence first as current research, followed by Spatial Understanding, Embodied Intelligence and Human–AI Interaction as PhD directions.
+- Sidebar CV links resolve to the supplied v3 PDF; both PhD notices expose the self-introduction PPTX with a download attribute.
+- SHA-256 comparisons confirm that site assets and generated downloads match the user-supplied PDF and PPTX exactly.
+- Jekyll production build, all 28 generated pages, 26 sitemap routes, local resources and anchors, and whitespace checks passed.
+
 ## Target management project — 18 September 2026
 
 - Added English and Chinese `target-manage` detail pages, with links from each homepage and Projects list.

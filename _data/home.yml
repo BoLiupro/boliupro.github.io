@@ -5,29 +5,49 @@ en:
   phd_copy: I am currently exploring PhD opportunities for Fall 2027. I would be grateful for opportunities
     to connect with researchers and discuss potential PhD positions or research collaborations.
   research_title: Research Interests
+  research_intro: My current work centers on spatiotemporal intelligence. For my PhD, I aim to extend this foundation toward agents for physical and spatial intelligence.
+  slides_label: Download self-introduction
   news_title: News & Updates
   interests:
-  - title: Agentic AI & Large Language Models
-    keywords: LLM Agents · Multi-Agent Systems · Memory · RAG · Reasoning
   - title: Spatiotemporal Intelligence
-    keywords: Human Mobility · Mobile Data Mining · Spatiotemporal Learning · Graph Learning
-  - title: Spatial & Human-Centered Intelligence
-    keywords: Spatial Intelligence · Human–AI Interaction · Human-Centered AI
-  - title: Robotics & Embodied Intelligence
-    keywords: Embodied Agents · Physical AI · Intelligent Robotics
+    scope: Current research
+    keywords: Human Mobility · Graph Learning · LLM Agents
+    description: Modeling human behavior and reasoning over evolving structured environments.
+  - title: Spatial Understanding
+    scope: PhD direction
+    keywords: Multimodal Perception · Dynamic 3D Environments
+    description: Understanding dynamic 3D environments through multimodal perception and structured representations.
+  - title: Embodied Intelligence
+    scope: PhD direction
+    keywords: Agent Reasoning · Memory · Planning
+    description: Extending agent reasoning, memory, and planning to interactions grounded in the physical world.
+  - title: Human–AI Interaction
+    scope: PhD direction
+    keywords: Context-Aware Agents · AR · Wearables · Robotics
+    description: Building agents that assist and collaborate with people through AR, wearable, or robotic interfaces.
 zh:
   title: 关于我
   phd_title: 博士申请
   phd_term: 2027 年秋季
   phd_copy: 我正在寻找 2027 年秋季入学的博士机会。期待与老师和研究者交流博士机会与科研合作。
   research_title: 研究兴趣
+  research_intro: 目前的研究以时空智能为基础。博士阶段，我希望进一步拓展到面向物理世界与空间智能的智能体。
+  slides_label: 下载自我介绍
   news_title: 新闻与动态
   interests:
-  - title: 智能体与大语言模型
-    keywords: LLM Agents · 多智能体系统 · 记忆 · RAG · 推理
   - title: 时空智能
-    keywords: 人类移动行为 · 移动数据挖掘 · 时空学习 · 图学习
-  - title: 空间与人本智能
-    keywords: 空间智能 · 人机交互 · 以人为中心的 AI
-  - title: 机器人与具身智能
-    keywords: 具身智能体 · 物理 AI · 智能机器人
+    scope: 当前研究
+    keywords: 人类移动行为 · 图学习 · 大语言模型智能体
+    description: 建模人类行为，研究演化结构环境中的智能体推理。
+  - title: 空间理解
+    scope: 博士研究方向
+    keywords: 多模态感知 · 动态三维环境
+    description: 通过多模态感知与结构化表征，理解动态三维环境。
+  - title: 具身智能
+    scope: 博士研究方向
+    keywords: 智能体推理 · 记忆 · 规划
+    description: 将智能体的推理、记忆与规划能力拓展到真实物理环境中的交互。
+  - title: 人机交互
+    scope: 博士研究方向
+    keywords: 上下文感知智能体 · AR · 可穿戴设备 · 机器人
+    description: 构建通过增强现实、可穿戴设备或机器人界面，自然辅助人类并与之协作的智能体。

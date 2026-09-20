@@ -22,7 +22,11 @@ The main audience is prospective PhD supervisors and research collaborators. The
 
 ### Profile
 
-`email`, `secondary_email`, `github`, `scholar`, `youtube` are shared. The `en` and `zh` blocks contain role, college, center, location, photo alt text and the CV label. The sidebar also displays the official Hunan University emblem.
+`email`, `secondary_email`, `github`, `scholar`, `youtube`, `cv_file` and `intro_slides` are shared. The `en` and `zh` blocks contain role, college, center, location, photo alt text and the CV label. The sidebar also displays the official Hunan University emblem. `cv_file` points to the latest supplied CV, while `intro_slides` powers the PPTX download in the PhD notice.
+
+### Research interests
+
+`home.en/zh.research_intro` distinguishes the current foundation from the PhD vision. Each of the four `interests` has `title`, `scope`, `description` and `keywords`: Spatiotemporal Intelligence (current research), followed by Spatial Understanding, Embodied Intelligence and Human–AI Interaction (PhD directions). `slides_label` localizes the self-introduction download action.
 
 ### Publication
 
