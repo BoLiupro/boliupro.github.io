@@ -38,14 +38,13 @@
       en: 2025–2026 academic year
       zh: 2025–2026 学年
     evidence:
-      image: /assets/images/awards/cv-honours.webp
+      image: /assets/images/awards/hnu-first-prize-scholarship-proof.webp
       label:
-        en: CV record · certificate not provided
-        zh: 简历记录 · 尚未提供对应证书
+        en: University proof · personal ID redacted
+        zh: 学校证明 · 已隐藏证件号码
       alt:
-        en: First Prize Scholarship — CV record · certificate not provided
-        zh: 一等奖学金 — 简历记录 · 尚未提供对应证书
-      source: /assets/files/Bo-Liu-CV.pdf
+        en: Hunan University proof of First Prize Scholarships in 2024 and 2025, with personal ID redacted
+        zh: 湖南大学出具的 2024、2025 年一等奖学金证明，已隐藏证件号码
 - year: '2024'
   items:
   - title:
@@ -58,13 +57,13 @@
       en: 2024–2025 academic year
       zh: 2024–2025 学年
     evidence:
-      image: /assets/images/awards/hnu-scholarship-2024-support.webp
+      image: /assets/images/awards/hnu-first-prize-scholarship-proof.webp
       label:
-        en: Supporting record
-        zh: 证明材料
+        en: University proof · personal ID redacted
+        zh: 学校证明 · 已隐藏证件号码
       alt:
-        en: First Prize Scholarship — supporting record showing Bo Liu's scholarship level
-        zh: 一等奖学金 — 标注刘博评奖等级的证明材料
+        en: Hunan University proof of First Prize Scholarships in 2024 and 2025, with personal ID redacted
+        zh: 湖南大学出具的 2024、2025 年一等奖学金证明，已隐藏证件号码
   - title:
       en: Excellent Graduate
       zh: 优秀毕业生

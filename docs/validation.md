@@ -1,5 +1,10 @@
 # Validation
 
+## Hunan University scholarship evidence — 22 September 2026
+
+- The supplied university proof explicitly lists First Prize Scholarships in 2024 and 2025.
+- Both bilingual award entries now point to one WebP proof image. The student ID, national ID and verification QR code are excluded from the published image; the original PDF stays outside the site.
+
 ## Research vision and application materials — 19 September 2026
 
 - Both homepages show Spatiotemporal Intelligence first as current research, followed by Spatial Understanding, Embodied Intelligence and Human–AI Interaction as PhD directions.
@@ -42,7 +47,7 @@ The Mac’s system Ruby is 2.6. Temporary compatible build dependencies were ins
 - Removed MOTION / AgentApp / MAEDE project routes are absent from generated output; their paper records remain.
 - Homepage: four research stages, both email addresses, three institutional links, two underlined advisor links, YouTube channel link, SVG envelope/GitHub/YouTube icons and the short CV label.
 - News: full paper titles in quotation marks, italicized full journal names, acknowledgments and closing emoji.
-- All 20 awards have evidence images. The 2025 HNU scholarship and the 2023–2024 FZU scholarship retain their existing CV-record images; the smart-city entry uses project presentation material.
+- All 20 awards have evidence images. The 2024 and 2025 HNU scholarship entries use one university-issued proof with ID numbers hidden; the 2023–2024 FZU scholarship retains its existing CV-record image; the smart-city entry uses project presentation material.
 - Hobbies: 16 hobby photos plus 4 volunteering photos, with the part-time role and stated dates.
 - Healthcare and C-V2X covers were checked against the user’s supplied images and extracted from the matching original materials.
 - Production build, all local resource / anchor checks, JavaScript syntax and whitespace checks passed.
