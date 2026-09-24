@@ -1,5 +1,11 @@
 # Validation
 
+## Application file refresh — 25 September 2026
+
+- Replaced the CV download with the latest supplied `LB_CV-v3.pdf` and the self-introduction download with the supplied 17-slide `HNU_BoLiu_v1.pptx`.
+- SHA-256 comparisons confirm that both published assets match their supplied source files exactly.
+- Updated the visible PPTX size from 31 MB to 24 MB.
+
 ## Hunan University scholarship evidence — 22 September 2026
 
 - The supplied university proof explicitly lists First Prize Scholarships in 2024 and 2025.

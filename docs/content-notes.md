@@ -19,7 +19,7 @@ The supplied `BoLiu_CV.pdf`, the ten PDFs in `papers/`, the corresponding paper 
 - The current CV download is an unchanged copy of `/Users/liubo/Desktop/LB_CV-v3.pdf`, stored as `assets/files/Bo-Liu-CV-v3.pdf`. It lists selected papers; the website retains all ten. The older PDF remains available for existing evidence links.
 - PhD opportunities refer to **Fall 2027**. The Master’s degree period in the CV is September 2024 to June 2027.
 - The research interests follow slide 15 of `HNU_BoLiu_v0.pptx` and the supplied Research Vision image. Spatiotemporal Intelligence is first and labeled Current research. Spatial Understanding, Embodied Intelligence and Human–AI Interaction are labeled PhD direction, with multimodal 3D understanding, physical interaction, and AR / wearable / robotic interfaces described as future interests.
-- The PhD notice includes an original-file download of `/Users/liubo/Desktop/HNU/Phd/套磁/HNU_BoLiu_v0.pptx`, stored as `assets/files/Bo-Liu-Self-Introduction.pptx` (16 slides, approximately 31 MiB). Both uploaded documents are copied without editing their contents. The CV reports undergraduate GPA 3.84/4; slide 4 reports 3.89/4. This discrepancy is not resolved by modifying either original.
+- The PhD notice includes an unchanged copy of `/Users/liubo/Desktop/HNU/Phd/套磁/ppt/HNU_BoLiu_v1.pptx`, stored as `assets/files/Bo-Liu-Self-Introduction.pptx` (17 slides, approximately 24 MiB). The supplied `/Users/liubo/Desktop/LB_CV-v3.pdf` is likewise copied unchanged to its existing site path. Both documents now report an undergraduate GPA of 3.84/4.
 
 ## Project selection
 
@@ -46,7 +46,6 @@ The `target-manage` project is based on `projects/Target_manage/【非密】目�
 ## Future content updates
 
 - Optional: provide the complete public author lists for anonymous manuscripts if `et al.` should be expanded.
-- Optional: reconcile undergraduate GPA between the supplied CV and self-introduction slides.
 - Optional: add public code, arXiv, dataset and interactive-demo links as they become available. No placeholder resources are displayed.
 - Project demonstrations use the supplied YouTube links. No unprovided interactive research demo is simulated or claimed.
 

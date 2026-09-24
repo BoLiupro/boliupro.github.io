@@ -16,7 +16,7 @@ For my PhD, I aim to build on this foundation in **spatiotemporal intelligence**
 
 I am currently exploring PhD opportunities for Fall 2027. I would be grateful for opportunities to connect with researchers and discuss potential PhD positions or research collaborations.
 
-Download self-introduction (PPTX · 31 MB).
+Download self-introduction (PPTX · 24 MB).
 
 ## Research Interests
 
