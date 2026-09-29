@@ -26,7 +26,7 @@ The main audience is prospective PhD supervisors and research collaborators. The
 
 ### Research interests
 
-`home.en/zh.research_intro` distinguishes the current foundation from the PhD vision. Each of the four `interests` has `title`, `scope`, `description` and `keywords`: Spatiotemporal Intelligence (current research), followed by Spatial Understanding, Embodied Intelligence and Human–AI Interaction (PhD directions). `slides_label` localizes the self-introduction download action.
+`home.en/zh.research_intro` connects the prior research foundation to the current vision. Each of the four `interests` has `title`, `scope`, `description` and `keywords`: Agentic AI as the core focus, followed by Spatial Understanding, Spatial Intelligence and Vision-Language Models as research directions. `slides_label` localizes the self-introduction download action.
 
 ### Publication
 

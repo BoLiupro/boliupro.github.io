@@ -10,19 +10,19 @@ My research has developed through four connected stages, moving from spatiotempo
 4. **Multi-agent reasoning over evolving structured environments.** More recently, I have studied human mobility as the evolution of user–location graphs, coordinating User, Location, and Manager Agents to connect individual decisions with community-level interaction patterns.
 {: .research-journey}
 
-For my PhD, I aim to build on this foundation in **spatiotemporal intelligence**, moving from modeling human behavior in structured digital environments toward **agents that perceive, reason, and interact in the physical world**. My broader interests span **spatial understanding, embodied intelligence, and human–AI interaction**. Alongside this research, I am exploring agentic code intelligence and the retrieval of reusable software assets.
+Looking ahead, I aim to move from modeling human behavior in structured digital environments toward **agentic intelligence in physical and spatial environments**. I am particularly interested in **spatial understanding, spatial intelligence, and vision-language models**, studying how multimodal perception and structured representations can support agents that perceive, reason, and interact in the physical world. Alongside this research, I am exploring agentic code intelligence and the retrieval of reusable software assets.
 
 ## PhD Application
 
 I am currently exploring PhD opportunities for Fall 2027. I would be grateful for opportunities to connect with researchers and discuss potential PhD positions or research collaborations.
 
-Download self-introduction (PPTX · 24 MB).
+Download self-introduction (PPTX · 25 MB).
 
 ## Research Interests
 
-My current work centers on spatiotemporal intelligence. For my PhD, I aim to extend this foundation toward agents for physical and spatial intelligence.
+My research vision centers on agentic intelligence in physical and spatial environments, building on human behavior modeling and LLM-based semantic reasoning.
 
-- **Spatiotemporal Intelligence — Current research:** Modeling human behavior and reasoning over evolving structured environments.
-- **Spatial Understanding — PhD direction:** Understanding dynamic 3D environments through multimodal perception and structured representations.
-- **Embodied Intelligence — PhD direction:** Extending agent reasoning, memory, and planning to interactions grounded in the physical world.
-- **Human–AI Interaction — PhD direction:** Building agents that assist and collaborate with people through AR, wearable, or robotic interfaces.
+- **Agentic AI — Core focus:** Developing intelligent agents that perceive, reason, and interact in physical and spatial environments.
+- **Spatial Understanding — Research direction:** Learning structured representations that help agents understand objects, relations, and changes in their surroundings.
+- **Spatial Intelligence — Research direction:** Grounding agent reasoning and decision making in geometry, location, and environmental context.
+- **Vision-Language Models — Research direction:** Connecting visual perception with language-guided reasoning to support agent understanding and interaction.

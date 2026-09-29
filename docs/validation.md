@@ -1,5 +1,11 @@
 # Validation
 
+## Research vision and application files — 29 September 2026
+
+- Replaced the CV and self-introduction downloads with the latest supplied `LB_CV-v3.pdf` and 16-slide `HNU_BoLiu_web.pptx`; their published copies match the source files by SHA-256.
+- Updated both homepages to show Agentic AI as the core focus and Spatial Understanding, Spatial Intelligence and Vision-Language Models as research directions.
+- Updated the About Me vision paragraph, bilingual metadata and the visible PPTX size label.
+
 ## Application file refresh — 25 September 2026
 
 - Replaced the CV download with the latest supplied `LB_CV-v3.pdf` and the self-introduction download with the supplied 17-slide `HNU_BoLiu_v1.pptx`.

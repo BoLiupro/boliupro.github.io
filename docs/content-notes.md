@@ -18,8 +18,8 @@ The supplied `BoLiu_CV.pdf`, the ten PDFs in `papers/`, the corresponding paper 
 - The 2021 Internet+ national silver award is confirmed by the certificate, which names Bo Liu as a team member. It was added even though omitted from the shorter CV.
 - The current CV download is an unchanged copy of `/Users/liubo/Desktop/LB_CV-v3.pdf`, stored as `assets/files/Bo-Liu-CV-v3.pdf`. It lists selected papers; the website retains all ten. The older PDF remains available for existing evidence links.
 - PhD opportunities refer to **Fall 2027**. The Master’s degree period in the CV is September 2024 to June 2027.
-- The research interests follow slide 15 of `HNU_BoLiu_v0.pptx` and the supplied Research Vision image. Spatiotemporal Intelligence is first and labeled Current research. Spatial Understanding, Embodied Intelligence and Human–AI Interaction are labeled PhD direction, with multimodal 3D understanding, physical interaction, and AR / wearable / robotic interfaces described as future interests.
-- The PhD notice includes an unchanged copy of `/Users/liubo/Desktop/HNU/Phd/套磁/ppt/HNU_BoLiu_v1.pptx`, stored as `assets/files/Bo-Liu-Self-Introduction.pptx` (17 slides, approximately 24 MiB). The supplied `/Users/liubo/Desktop/LB_CV-v3.pdf` is likewise copied unchanged to its existing site path. Both documents now report an undergraduate GPA of 3.84/4.
+- The current Research Interests follow the latest CV and slide 15 of `HNU_BoLiu_web.pptx`. Agentic AI is the core focus; Spatial Understanding, Spatial Intelligence and Vision-Language Models are the three research directions. The vision connects earlier human behavior modeling and LLM semantic reasoning to agentic intelligence in physical and spatial environments.
+- The PhD notice includes an unchanged copy of `/Users/liubo/Desktop/HNU/Phd/套磁/ppt/HNU_BoLiu_web.pptx`, stored as `assets/files/Bo-Liu-Self-Introduction.pptx` (16 slides, approximately 25 MiB). The latest supplied `/Users/liubo/Desktop/LB_CV-v3.pdf` is likewise copied unchanged to its existing site path. The CV explicitly lists Agentic AI, Spatial Intelligence and Vision-Language Models as research interests.
 
 ## Project selection
 

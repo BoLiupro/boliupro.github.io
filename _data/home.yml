@@ -5,49 +5,49 @@ en:
   phd_copy: I am currently exploring PhD opportunities for Fall 2027. I would be grateful for opportunities
     to connect with researchers and discuss potential PhD positions or research collaborations.
   research_title: Research Interests
-  research_intro: My current work centers on spatiotemporal intelligence. For my PhD, I aim to extend this foundation toward agents for physical and spatial intelligence.
+  research_intro: My research vision centers on agentic intelligence in physical and spatial environments, building on human behavior modeling and LLM-based semantic reasoning.
   slides_label: Download self-introduction
   news_title: News & Updates
   interests:
-  - title: Spatiotemporal Intelligence
-    scope: Current research
-    keywords: Human Mobility · Graph Learning · LLM Agents
-    description: Modeling human behavior and reasoning over evolving structured environments.
+  - title: Agentic AI
+    scope: Core focus
+    keywords: Agent Reasoning · Memory · Planning · Multi-Agent Systems
+    description: Developing intelligent agents that perceive, reason, and interact in physical and spatial environments.
   - title: Spatial Understanding
-    scope: PhD direction
-    keywords: Multimodal Perception · Dynamic 3D Environments
-    description: Understanding dynamic 3D environments through multimodal perception and structured representations.
-  - title: Embodied Intelligence
-    scope: PhD direction
-    keywords: Agent Reasoning · Memory · Planning
-    description: Extending agent reasoning, memory, and planning to interactions grounded in the physical world.
-  - title: Human–AI Interaction
-    scope: PhD direction
-    keywords: Context-Aware Agents · AR · Wearables · Robotics
-    description: Building agents that assist and collaborate with people through AR, wearable, or robotic interfaces.
+    scope: Research direction
+    keywords: Multimodal Perception · Structured Representations · Dynamic Environments
+    description: Learning structured representations that help agents understand objects, relations, and changes in their surroundings.
+  - title: Spatial Intelligence
+    scope: Research direction
+    keywords: Spatial Reasoning · World Models · Physical Environments
+    description: Grounding agent reasoning and decision making in geometry, location, and environmental context.
+  - title: Vision-Language Models
+    scope: Research direction
+    keywords: Multimodal Learning · Visual Reasoning · Vision-Language Alignment
+    description: Connecting visual perception with language-guided reasoning to support agent understanding and interaction.
 zh:
   title: 关于我
   phd_title: 博士申请
   phd_term: 2027 年秋季
   phd_copy: 我正在寻找 2027 年秋季入学的博士机会。期待与老师和研究者交流博士机会与科研合作。
   research_title: 研究兴趣
-  research_intro: 目前的研究以时空智能为基础。博士阶段，我希望进一步拓展到面向物理世界与空间智能的智能体。
+  research_intro: 我的研究愿景聚焦物理与空间环境中的智能体智能，并以人类行为建模和大语言模型语义推理为研究基础。
   slides_label: 下载自我介绍
   news_title: 新闻与动态
   interests:
-  - title: 时空智能
-    scope: 当前研究
-    keywords: 人类移动行为 · 图学习 · 大语言模型智能体
-    description: 建模人类行为，研究演化结构环境中的智能体推理。
+  - title: 智能体人工智能
+    scope: 核心方向
+    keywords: 智能体推理 · 记忆 · 规划 · 多智能体系统
+    description: 构建能够在物理与空间环境中感知、推理和交互的智能体。
   - title: 空间理解
-    scope: 博士研究方向
-    keywords: 多模态感知 · 动态三维环境
-    description: 通过多模态感知与结构化表征，理解动态三维环境。
-  - title: 具身智能
-    scope: 博士研究方向
-    keywords: 智能体推理 · 记忆 · 规划
-    description: 将智能体的推理、记忆与规划能力拓展到真实物理环境中的交互。
-  - title: 人机交互
-    scope: 博士研究方向
-    keywords: 上下文感知智能体 · AR · 可穿戴设备 · 机器人
-    description: 构建通过增强现实、可穿戴设备或机器人界面，自然辅助人类并与之协作的智能体。
+    scope: 研究方向
+    keywords: 多模态感知 · 结构化表征 · 动态环境
+    description: 学习环境中物体、关系与变化的结构化表征，帮助智能体理解周围世界。
+  - title: 空间智能
+    scope: 研究方向
+    keywords: 空间推理 · 世界模型 · 物理环境
+    description: 将智能体的推理与决策建立在几何、位置和环境上下文之上。
+  - title: 视觉语言模型
+    scope: 研究方向
+    keywords: 多模态学习 · 视觉推理 · 视觉语言对齐
+    description: 连接视觉感知与语言引导的推理，支持智能体理解环境并与之交互。

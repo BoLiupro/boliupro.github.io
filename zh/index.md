@@ -5,7 +5,7 @@ section: home
 lang: zh
 permalink: /zh/
 translation: /
-description: 刘博，湖南大学硕士研究生，研究方向为智能体、大语言模型、时空智能与移动数据挖掘。
+description: 刘博，湖南大学硕士研究生，研究方向为智能体人工智能、空间智能与视觉语言模型。
 ---
 
 你好！我是**刘博（Bo Liu）**，现为**湖南大学计算机科学与电子工程学院**及**国家超级计算长沙中心**的三年级硕士研究生，攻读软件工程硕士学位，有幸得到**[肖竹教授](https://csee.hnu.edu.cn/people/xiaozhu){: target="_blank" rel="noopener noreferrer" }**和**[李桐教授](https://tong89.github.io/tongli.github.io/){: target="_blank" rel="noopener noreferrer" }**的指导。我的研究成果已发表于或被 IEEE Transactions on Services Computing (TSC)、IEEE Transactions on Intelligent Transportation Systems (T-ITS) 和《计算机学报》(CJC) 接收，另有多项工作正在 KDD、AAAI、IEEE Transactions on Knowledge and Data Engineering (TKDE)、ACM Transactions on Intelligent Systems and Technology (TIST) 和 Analytic Methods in Accident Research (AMAR) 审稿或修改中。
@@ -18,4 +18,4 @@ description: 刘博，湖南大学硕士研究生，研究方向为智能体、�
 4. **演化结构环境中的多智能体推理。** 近期将人类移动行为建模为用户—地点图的演化，通过用户、地点与管理智能体协作，连接个体决策与社区层面的交互模式。
 {: .research-journey}
 
-博士阶段，我希望以**时空智能**研究为基础，从结构化数字环境中的人类行为建模，进一步走向**能够在物理世界中感知、推理与交互的智能体**，重点拓展**空间理解、具身智能与人机交互**。与此同时，我也在研究代码智能与可复用软件资产的检索。
+面向未来，我希望从结构化数字环境中的人类行为建模，进一步走向**物理与空间环境中的智能体智能**。我尤其关注**空间理解、空间智能与视觉语言模型**，研究多模态感知和结构化表征如何支持智能体在物理世界中感知、推理与交互。与此同时，我也在研究代码智能与可复用软件资产的检索。
