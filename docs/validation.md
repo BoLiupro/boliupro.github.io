@@ -1,5 +1,10 @@
 # Validation
 
+## Smart City competition certificate — 2 October 2026
+
+- Replaced the project-presentation placeholder with the formal National Third Prize certificate for the 11th China Graduate Smart City Technology and Creative Design Competition.
+- The bilingual award entry now labels the image as an award certificate and uses localized accessible text.
+
 ## Research vision and application files — 29 September 2026
 
 - Replaced the CV and self-introduction downloads with the latest supplied `LB_CV-v3.pdf` and 16-slide `HNU_BoLiu_web.pptx`; their published copies match the source files by SHA-256.
@@ -59,7 +64,7 @@ The Mac’s system Ruby is 2.6. Temporary compatible build dependencies were ins
 - Removed MOTION / AgentApp / MAEDE project routes are absent from generated output; their paper records remain.
 - Homepage: four research stages, both email addresses, three institutional links, two underlined advisor links, YouTube channel link, SVG envelope/GitHub/YouTube icons and the short CV label.
 - News: full paper titles in quotation marks, italicized full journal names, acknowledgments and closing emoji.
-- All 20 awards have evidence images. The 2024 and 2025 HNU scholarship entries use one university-issued proof with ID numbers hidden; the 2023–2024 FZU scholarship retains its existing CV-record image; the smart-city entry uses project presentation material.
+- All 20 awards have evidence images. The 2024 and 2025 HNU scholarship entries use one university-issued proof with ID numbers hidden; the 2023–2024 FZU scholarship retains its existing CV-record image; the smart-city entry uses its formal award certificate.
 - Hobbies: 16 hobby photos plus 4 volunteering photos, with the part-time role and stated dates.
 - Healthcare and C-V2X covers were checked against the user’s supplied images and extracted from the matching original materials.
 - Production build, all local resource / anchor checks, JavaScript syntax and whitespace checks passed.
