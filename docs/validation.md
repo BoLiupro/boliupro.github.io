@@ -1,5 +1,11 @@
 # Validation
 
+## 2026 National Scholarship — 17 October 2026
+
+- Added the 2026 National Scholarship for Graduate Students as the newest bilingual News item and the first entry in the Awards timeline.
+- Created a privacy-safe WebP proof image from the supplied selection notice. It retains the notice heading, college seal and Bo Liu's selected-record row while excluding the student number and unrelated student records.
+- Both homepages now generate 43 preview cards: 10 publications, 7 projects, 21 awards and 5 hobbies / volunteering entries.
+
 ## Smart City competition certificate — 2 October 2026
 
 - Replaced the project-presentation placeholder with the formal National Third Prize certificate for the 11th China Graduate Smart City Technology and Creative Design Competition.
@@ -64,14 +70,14 @@ The Mac’s system Ruby is 2.6. Temporary compatible build dependencies were ins
 - Removed MOTION / AgentApp / MAEDE project routes are absent from generated output; their paper records remain.
 - Homepage: four research stages, both email addresses, three institutional links, two underlined advisor links, YouTube channel link, SVG envelope/GitHub/YouTube icons and the short CV label.
 - News: full paper titles in quotation marks, italicized full journal names, acknowledgments and closing emoji.
-- All 20 awards have evidence images. The 2024 and 2025 HNU scholarship entries use one university-issued proof with ID numbers hidden; the 2023–2024 FZU scholarship retains its existing CV-record image; the smart-city entry uses its formal award certificate.
+- All 21 awards have evidence images. The 2026 National Scholarship proof excludes unrelated student records and the student number; the 2024 and 2025 HNU scholarship entries use one university-issued proof with ID numbers hidden; the 2023–2024 FZU scholarship retains its existing CV-record image; the smart-city entry uses its formal award certificate.
 - Hobbies: 16 hobby photos plus 4 volunteering photos, with the part-time role and stated dates.
 - Healthcare and C-V2X covers were checked against the user’s supplied images and extracted from the matching original materials.
 - Production build, all local resource / anchor checks, JavaScript syntax and whitespace checks passed.
 
 ## Homepage and project revision
 
-- Four homepage preview regions in both languages, with 41 linked cards (10 publications, 6 projects, 20 awards, 5 hobbies / volunteering entries).
+- Four homepage preview regions in both languages, with 43 linked cards (10 publications, 7 projects, 21 awards, 5 hobbies / volunteering entries).
 - Anonymous repositories present for MOTION and AgentApp; public source-code links present for Healthcare V2 and C-V2X.
 - New positioning-error-analysis project has English and Chinese detail routes; MAEDE remains in Publications only.
 - Revised AgentApp, UniMob and positioning-analysis cover images were visually inspected against the source figures.

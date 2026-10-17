@@ -1,3 +1,22 @@
+- year: '2026'
+  items:
+  - title:
+      en: National Scholarship for Graduate Students
+      zh: 硕士研究生国家奖学金
+    organization:
+      en: Ministry of Education of China
+      zh: 中华人民共和国教育部
+    note:
+      en: '2026'
+      zh: 2026 年
+    evidence:
+      image: /assets/images/awards/national-scholarship-2026-proof.webp
+      label:
+        en: Selection result · unrelated student records excluded
+        zh: 评选结果公示 · 已隐藏其他学生信息
+      alt:
+        en: 2026 National Scholarship selection result showing Bo Liu among the selected master's students
+        zh: 2026 年计算机学院国家奖学金评选结果中刘博入选硕士生名单
 - year: '2025'
   items:
   - title:

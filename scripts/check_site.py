@@ -136,8 +136,8 @@ for prefix in ['', 'zh/']:
     homepage_html = (root / prefix / 'index.html').read_text()
     if 'Intelligent agents, human behavior, and the environments we share.' in homepage_html or '研究智能体、人类行为与我们共同生活的环境。' in homepage_html:
         errors.append(f'{prefix}index.html: removed profile note is still visible')
-    if homepage is None or homepage.previews != 42 or not all('preview-' + section in homepage.ids for section in ['publications', 'projects', 'awards', 'hobbies']):
-        errors.append(f'{prefix}index.html: expected four preview rows with 10/7/20/5 items')
+    if homepage is None or homepage.previews != 43 or not all('preview-' + section in homepage.ids for section in ['publications', 'projects', 'awards', 'hobbies']):
+        errors.append(f'{prefix}index.html: expected four preview rows with 10/7/21/5 items')
     publications = pages.get(root / prefix / 'publications/index.html')
     for link in ['https://anonymous.4open.science/r/MOTION-04C4', 'https://anonymous.4open.science/r/AgentApp-8202']:
         if publications is None or link not in publications.links:
@@ -168,8 +168,8 @@ for prefix in ['', 'zh/']:
     if root / prefix / 'projects/positioning-error-analysis/index.html' not in pages:
         errors.append(f'{prefix}projects: missing positioning error analysis project')
     awards = pages.get(root / prefix / 'awards/index.html')
-    if awards is None or len(awards.images) != 20:
-        errors.append(f'{prefix}awards: expected evidence images for all 20 awards')
+    if awards is None or len(awards.images) != 21:
+        errors.append(f'{prefix}awards: expected evidence images for all 21 awards')
     hobbies = pages.get(root / prefix / 'hobbies/index.html')
     if hobbies is None or 'volunteering-title' not in hobbies.ids or len(hobbies.images) != 20:
         errors.append(f'{prefix}hobbies: missing volunteer section or gallery photos')
@@ -200,7 +200,7 @@ if errors:
     sys.exit(1)
 print(f'PASS: {len(pages)} HTML pages; 26 sitemap routes; all local resources and anchors resolve.')
 print('PASS: bilingual metadata, 10 papers per language, image descriptions, and lazy-loaded YouTube demos.')
-print('PASS: requested paper order, profile links, 20 award evidence images, and volunteer galleries.')
+print('PASS: requested paper order, profile links, 21 award evidence images, and volunteer galleries.')
 
 print("PASS: four homepage preview rows, anonymous code links, YouTube channel, and project repositories.")
 print('PASS: every external web link opens safely in a new tab; publication code buttons share one style.')
