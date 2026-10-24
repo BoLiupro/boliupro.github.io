@@ -1,5 +1,11 @@
 # Validation
 
+## MOTION submission update — 24 October 2026
+
+- Updated MOTION from KDD 2027 to WWW 2027 while keeping its status as Under Review.
+- Replaced the downloadable MOTION PDF with the revised 12-page anonymous WWW manuscript.
+- Added WWW to the bilingual About Me venue list; KDD remains because R2-Transfer is still listed as KDD 2027 Under Review.
+
 ## 2026 National Scholarship — 17 October 2026
 
 - Added the 2026 National Scholarship for Graduate Students as the newest bilingual News item and the first entry in the Awards timeline.

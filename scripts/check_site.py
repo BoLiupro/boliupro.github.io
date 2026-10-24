@@ -148,6 +148,9 @@ for prefix in ['', 'zh/']:
     if publications is None or 'https://arxiv.org/abs/2602.19694' not in publications.links:
         errors.append(f'{prefix}publications: missing UniMob arXiv record')
     publication_html = (root / prefix / 'publications/index.html').read_text()
+    motion_fragment = publication_html.split('id="motion"', 1)[-1].split('</article>', 1)[0]
+    if 'id="motion"' not in publication_html or '<em>WWW</em>' not in motion_fragment or '<em>KDD</em>' in motion_fragment:
+        errors.append(f'{prefix}publications: MOTION must be listed as WWW 2027')
     published_label = '>已发表</span>' if prefix else '>Published</span>'
     llmapp_fragment = publication_html.split('id="llmapp"', 1)[-1].split('</article>', 1)[0]
     if 'id="llmapp"' not in publication_html or published_label not in llmapp_fragment:

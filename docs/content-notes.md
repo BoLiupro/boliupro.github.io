@@ -12,6 +12,7 @@ The supplied `BoLiu_CV.pdf`, the ten PDFs in `papers/`, the corresponding paper 
 - **MoE-LLM:** the manuscript title ends in “Traffic Prediction”; the Word CV says “Traffic Flow Prediction.” The site uses the manuscript title and describes mobile network traffic, consistent with its abstract.
 - **R2-Transfer:** the manuscript title says “Cross-City Time Series Prediction”; the Word CV says “Cross-City Traffic Prediction.” The site uses the manuscript title.
 - Named manuscripts supply full author lists. For anonymous review manuscripts, the site uses the ordered author names explicitly given in the CV, followed by `et al.` where the list is incomplete.
+- **MOTION:** the submission venue is now WWW 2027 rather than KDD 2027. The downloadable paper is the revised 12-page anonymous WWW manuscript supplied on 24 October 2026.
 - Status follows the Word CV and user specification. LLMApp stays **Accepted** despite the supplied PDF containing an early-access DOI. No review submission is described as accepted or forthcoming.
 - The February 2025 carbon-emission news is labeled **published / appeared in volume 26(2)**, rather than an acceptance on that date. The supplied paper supports the issue date.
 - News dates supplied in the user brief are preserved. Year-only / academic-year records are not given invented exact dates.
