@@ -189,7 +189,7 @@
     en: LLM expert coordination using time-series inputs and expert reliability
     zh: LLM 利用时间序列与专家可靠度进行专家协调
 - id: hpdm
-  title: A Hierarchical Prediction-Driven Measurement Framework for Urban Pedestrian Red-Light Running
+  title: A Prediction-Driven Framework for Proactive Pedestrian Red-Light-Running Risk Evaluation
   authors:
   - Beihao Xia
   - Bo Liu
@@ -198,16 +198,16 @@
   - Si Qiao
   - Qinmu Peng
   - Zhu Xiao
-  - Anthony Gar-On Yeh
   - Xinge You
+  - Anthony Gar-On Yeh
   venue: Analytic Methods in Accident Research
   year: 2026
   status: under-review
   group: review
   summary:
-    en: A trajectory-based framework models how pedestrian intentions develop into crossing actions, measuring
-      risk before a red-light violation is observed.
-    zh: 基于轨迹预测分析行人意图向过街行为的转化过程，在可观测的闯红灯行为发生之前量化风险。
+    en: HPDM combines trajectory prediction, traffic signal states, crossing geometry, and vehicle interactions
+      to quantify evolving crossing intentions and proactively evaluate pedestrian red-light-running risk.
+    zh: HPDM 融合轨迹预测、交通信号状态、过街区域几何与车辆交互，量化过街意图的动态演化，主动评估行人闯红灯风险。
   pdf: /assets/files/papers/hpdm.pdf
   cover: /assets/images/papers/hpdm.webp
   alt:

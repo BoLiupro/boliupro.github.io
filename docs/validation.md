@@ -1,5 +1,11 @@
 # Validation
 
+## HPDM manuscript refresh — 24 October 2026
+
+- Replaced the HPDM PDF with the supplied 31-page manuscript and synchronized its title, author order and bilingual summary.
+- The shared publication record updates both Publications pages and homepage previews; the review status and venue are unchanged.
+- The published PDF is an unchanged copy of the supplied source.
+
 ## CV refresh — 24 October 2026
 
 - Replaced the CV download with the supplied one-page `LiuBo_CV.pdf`, preserving the existing URL used by both language variants.
