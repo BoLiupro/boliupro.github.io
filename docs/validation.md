@@ -1,5 +1,10 @@
 # Validation
 
+## CV refresh — 24 October 2026
+
+- Replaced the CV download with the supplied one-page `LiuBo_CV.pdf`, preserving the existing URL used by both language variants.
+- The published copy matches the supplied file by SHA-256.
+
 ## MOTION submission update — 24 October 2026
 
 - Updated MOTION from KDD 2027 to WWW 2027 while keeping its status as Under Review.

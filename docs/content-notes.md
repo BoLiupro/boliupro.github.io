@@ -17,10 +17,10 @@ The supplied `BoLiu_CV.pdf`, the ten PDFs in `papers/`, the corresponding paper 
 - The February 2025 carbon-emission news is labeled **published / appeared in volume 26(2)**, rather than an acceptance on that date. The supplied paper supports the issue date.
 - News dates supplied in the user brief are preserved. Year-only / academic-year records are not given invented exact dates.
 - The 2021 Internet+ national silver award is confirmed by the certificate, which names Bo Liu as a team member. It was added even though omitted from the shorter CV.
-- The current CV download is an unchanged copy of `/Users/liubo/Desktop/LB_CV-v3.pdf`, stored as `assets/files/Bo-Liu-CV-v3.pdf`. It lists selected papers; the website retains all ten. The older PDF remains available for existing evidence links.
+- The current CV download is an unchanged copy of `/Users/liubo/Desktop/LiuBo_CV.pdf`, supplied on 24 October 2026 and stored at the existing `assets/files/Bo-Liu-CV-v3.pdf` URL. It lists selected papers; the website retains all ten. The older PDF remains available for existing evidence links.
 - PhD opportunities refer to **Fall 2027**. The Master’s degree period in the CV is September 2024 to June 2027.
 - The current Research Interests follow the latest CV and slide 15 of `HNU_BoLiu_web.pptx`. Agentic AI is the core focus; Spatial Understanding, Spatial Intelligence and Vision-Language Models are the three research directions. The vision connects earlier human behavior modeling and LLM semantic reasoning to agentic intelligence in physical and spatial environments.
-- The PhD notice includes an unchanged copy of `/Users/liubo/Desktop/HNU/Phd/套磁/ppt/HNU_BoLiu_web.pptx`, stored as `assets/files/Bo-Liu-Self-Introduction.pptx` (16 slides, approximately 25 MiB). The latest supplied `/Users/liubo/Desktop/LB_CV-v3.pdf` is likewise copied unchanged to its existing site path. The CV explicitly lists Agentic AI, Spatial Intelligence and Vision-Language Models as research interests.
+- The PhD notice includes an unchanged copy of `/Users/liubo/Desktop/HNU/Phd/套磁/ppt/HNU_BoLiu_web.pptx`, stored as `assets/files/Bo-Liu-Self-Introduction.pptx` (16 slides, approximately 25 MiB). The latest supplied `/Users/liubo/Desktop/LiuBo_CV.pdf` is likewise copied unchanged to its existing site path. The CV explicitly lists Agentic AI, Spatial Intelligence and Vision-Language Models as research interests.
 
 ## Project selection
 
