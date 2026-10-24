@@ -3,7 +3,7 @@
 ## HPDM manuscript refresh — 24 October 2026
 
 - Replaced the HPDM PDF with the supplied 31-page manuscript and synchronized its title, author order and bilingual summary.
-- The shared publication record updates both Publications pages and homepage previews; the review status and venue are unchanged.
+- The shared publication record updates both Publications pages and homepage previews. The user confirmed Accident Analysis & Prevention (AAP) as the submission venue; both About Me venue lists also reflect AAP. The status remains Under Review.
 - The published PDF is an unchanged copy of the supplied source.
 
 ## CV refresh — 24 October 2026
