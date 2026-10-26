@@ -81,7 +81,7 @@ All external HTTP/HTTPS links open in a new tab with `noopener noreferrer`. Curr
 
 ## September 2026 content update
 
-Publication order: MOTION → AgentApp → LLMApp → UniMob → RAG²-MP → CSTNet → MAEDE → MoE-LLM → HPDM → R2-Transfer. This manual data order takes precedence over status grouping.
+Publication order: MOTION → Image2Traffic → AgentApp → LLMApp → UniMob → RAG²-MP → CSTNet → MAEDE → MoE-LLM → HPDM → R2-Transfer. This manual data order takes precedence over status grouping.
 
 The homepage research narrative uses four stages: graph/diffusion models; LLM semantic reasoning; retrieval-augmented and personalized agents; multi-agent reasoning over evolving graphs.
 
@@ -89,6 +89,6 @@ Volunteer teaching is stored in `_data/volunteering.yml` and appended to Hobbies
 
 ## Homepage previews
 
-`ui.en/zh.previews` defines the four section labels and their “All…” links. `_includes/home-previews.html` reads the existing publication, project, award, hobby and volunteering data, avoiding duplicate content records. The rows currently contain 10 publications, 7 projects, 21 awards and 5 hobby / volunteering entries. Publication cards link to paper anchors; project cards link to detail pages; awards and hobbies link to the matching timeline or gallery section.
+`ui.en/zh.previews` defines the four section labels and their “All…” links. `_includes/home-previews.html` reads the existing publication, project, award, hobby and volunteering data, avoiding duplicate content records. The rows currently contain 11 publications, 7 projects, 21 awards and 5 hobby / volunteering entries. Publication cards link to paper anchors; project cards link to detail pages; awards and hobbies link to the matching timeline or gallery section.
 
 Desktop rows show four cards, medium-width screens show two, and narrow phones show one with a partial next card. Native scrolling remains usable without JavaScript. Buttons and keyboard arrows provide additional navigation, with reduced-motion preferences respected. Update the corresponding shared data to change the previews.

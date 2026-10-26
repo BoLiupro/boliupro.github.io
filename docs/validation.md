@@ -1,5 +1,12 @@
 # Validation
 
+## WWW 2027 manuscript updates — 26 October 2026
+
+- Replaced MOTION with the supplied latest 12-page PDF and refreshed its framework cover.
+- Added Image2Traffic as an 11-page WWW 2027 manuscript under review, with a bilingual abstract summary, Figure 3 cover and anonymous code link.
+- Image2Traffic follows MOTION in the shared publication list. Both languages now contain 11 papers and 44 homepage preview cards (11/7/21/5).
+- Both downloadable PDFs are unchanged copies of the supplied files. Image2Traffic displays the six authors in the order confirmed by the user, with Bo Liu emphasized consistently with other papers.
+
 ## HPDM manuscript refresh — 24 October 2026
 
 - Replaced the HPDM PDF with the supplied 31-page manuscript and synchronized its title, author order and bilingual summary.

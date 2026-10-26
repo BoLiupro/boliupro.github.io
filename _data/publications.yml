@@ -21,6 +21,29 @@
     en: MOTION user, location and manager agents with community-consistency reflection
     zh: MOTION 用户、地点、管理智能体及社区一致性反思机制
   anonymous: https://anonymous.4open.science/r/MOTION-04C4
+- id: image2traffic
+  title: 'Image2Traffic: Text-Bridged Cellular Traffic Generation with Reflective Alignment and Temporal Prototypes'
+  authors:
+  - Feiyu Long
+  - Tong Li
+  - Bo Liu
+  - Zhu Xiao
+  - Zhuo Tang
+  - Kenli Li
+  venue: WWW
+  year: 2027
+  status: under-review
+  group: review
+  summary:
+    en: Image2Traffic aligns satellite imagery with traffic semantics through multi-agent reflection, retrieves
+      frequency-aware temporal prototypes, and conditions diffusion to generate cellular traffic for unseen regions.
+    zh: Image2Traffic 通过多智能体反思对齐卫星影像与流量语义，检索频率感知的时间原型，并引导扩散模型生成未知区域的蜂窝网络流量。
+  pdf: /assets/files/papers/image2traffic.pdf
+  cover: /assets/images/papers/image2traffic.webp
+  alt:
+    en: Image2Traffic semantic alignment, traffic-pattern retrieval and conditional diffusion framework
+    zh: Image2Traffic 语义对齐、流量模式检索与条件扩散生成框架
+  anonymous: https://anonymous.4open.science/r/image2text/
 - id: agentapp
   title: 'AgentApp: Bridging Personalized and Collective Patterns for Mobile App Usage Prediction via Collaborative
     LLM Agents'
