@@ -1,5 +1,10 @@
 # Validation
 
+## Research Interests card refinement — 26 October 2026
+
+- Removed the Vision-Language Models card from both language variants of the homepage Research Interests section.
+- Each homepage now shows four interest cards: Agentic AI, Spatial Understanding, Spatial Intelligence and Human–AI Interaction.
+
 ## Human–AI Interaction research interest — 26 October 2026
 
 - Added Human–AI Interaction to the bilingual Research Interests cards, research vision and About Me paragraph.

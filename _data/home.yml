@@ -21,10 +21,6 @@ en:
     scope: Research direction
     keywords: Spatial Reasoning · World Models · Physical Environments
     description: Grounding agent reasoning and decision making in geometry, location, and environmental context.
-  - title: Vision-Language Models
-    scope: Research direction
-    keywords: Multimodal Learning · Visual Reasoning · Vision-Language Alignment
-    description: Connecting visual perception with language-guided reasoning to support agent understanding and interaction.
   - title: Human–AI Interaction
     scope: Research direction
     keywords: Human–Agent Collaboration · Context-Aware Interaction · Interactive AI
@@ -51,10 +47,6 @@ zh:
     scope: 研究方向
     keywords: 空间推理 · 世界模型 · 物理环境
     description: 将智能体的推理与决策建立在几何、位置和环境上下文之上。
-  - title: 视觉语言模型
-    scope: 研究方向
-    keywords: 多模态学习 · 视觉推理 · 视觉语言对齐
-    description: 连接视觉感知与语言引导的推理，支持智能体理解环境并与之交互。
   - title: 人机交互
     scope: 研究方向
     keywords: 人类与智能体协作 · 上下文感知交互 · 交互式人工智能
