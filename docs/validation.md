@@ -1,5 +1,11 @@
 # Validation
 
+## Human–AI Interaction research interest — 26 October 2026
+
+- Added Human–AI Interaction to the bilingual Research Interests cards, research vision and About Me paragraph.
+- Updated English and Chinese page metadata and the website repository README.
+- The GitHub profile README also includes this interest in its English list, Chinese introduction and PhD research directions.
+
 ## WWW 2027 manuscript updates — 26 October 2026
 
 - Replaced MOTION with the supplied latest 12-page PDF and refreshed its framework cover.

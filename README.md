@@ -23,7 +23,7 @@ The site currently presents me as a third-year Master’s student at the **Colle
 3. retrieval-augmented and personalized agents;
 4. multi-agent reasoning over evolving structured environments.
 
-The homepage also states that I am **exploring PhD opportunities for Fall 2027**, with broad interests in Agentic AI, spatial/spatiotemporal intelligence, human-centered AI, robotics and embodied intelligence.
+The homepage also states that I am **exploring PhD opportunities for Fall 2027**, with broad interests in Agentic AI, spatial/spatiotemporal intelligence, Human–AI Interaction, human-centered AI, robotics and embodied intelligence.
 
 ## Site Structure
 
@@ -105,7 +105,7 @@ flowchart LR
     B --> C[RAG & Personalized Agents]
     C --> D[Multi-Agent Reasoning over Structured Environments]
     D --> E[Agentic AI in Human-Centered / Physical Environments]
-    E --> F[Spatial Intelligence · HAI · Robotics · Embodied Intelligence]
+    E --> F[Spatial Intelligence · Human–AI Interaction · Robotics · Embodied Intelligence]
 ```
 
 This narrative is also synchronized with the GitHub profile repository `BoLiupro/BoLiuPro` so that visitors see the same research identity across the website and GitHub profile.
@@ -114,7 +114,7 @@ This narrative is also synchronized with the GitHub profile repository `BoLiupro
 
 The site currently includes the following application direction:
 
-> I am currently exploring PhD opportunities for Fall 2027. My interests broadly lie in Agentic AI, Spatiotemporal and Spatial Intelligence, Human-Centered AI, Robotics, and Embodied Intelligence.
+> I am currently exploring PhD opportunities for Fall 2027. My interests broadly lie in Agentic AI, Spatiotemporal and Spatial Intelligence, Human–AI Interaction, Human-Centered AI, Robotics, and Embodied Intelligence.
 
 The homepage and GitHub profile are maintained together so future advisor/research-interest updates can remain consistent.
 

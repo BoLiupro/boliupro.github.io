@@ -5,7 +5,7 @@ en:
   phd_copy: I am currently exploring PhD opportunities for Fall 2027. I would be grateful for opportunities
     to connect with researchers and discuss potential PhD positions or research collaborations.
   research_title: Research Interests
-  research_intro: My research vision centers on agentic intelligence in physical and spatial environments, building on human behavior modeling and LLM-based semantic reasoning.
+  research_intro: My research vision centers on agents that understand physical and spatial environments and collaborate with people, building on human behavior modeling and LLM-based semantic reasoning.
   slides_label: Download self-introduction
   news_title: News & Updates
   interests:
@@ -25,13 +25,17 @@ en:
     scope: Research direction
     keywords: Multimodal Learning · Visual Reasoning · Vision-Language Alignment
     description: Connecting visual perception with language-guided reasoning to support agent understanding and interaction.
+  - title: Human–AI Interaction
+    scope: Research direction
+    keywords: Human–Agent Collaboration · Context-Aware Interaction · Interactive AI
+    description: Studying how people interact and collaborate with intelligent agents, with attention to human intent, context, and useful feedback.
 zh:
   title: 关于我
   phd_title: 博士申请
   phd_term: 2027 年秋季
   phd_copy: 我正在寻找 2027 年秋季入学的博士机会。期待与老师和研究者交流博士机会与科研合作。
   research_title: 研究兴趣
-  research_intro: 我的研究愿景聚焦物理与空间环境中的智能体智能，并以人类行为建模和大语言模型语义推理为研究基础。
+  research_intro: 我的研究愿景聚焦能够理解物理与空间环境、并与人类协作的智能体，以人类行为建模和大语言模型语义推理为研究基础。
   slides_label: 下载自我介绍
   news_title: 新闻与动态
   interests:
@@ -51,3 +55,7 @@ zh:
     scope: 研究方向
     keywords: 多模态学习 · 视觉推理 · 视觉语言对齐
     description: 连接视觉感知与语言引导的推理，支持智能体理解环境并与之交互。
+  - title: 人机交互
+    scope: 研究方向
+    keywords: 人类与智能体协作 · 上下文感知交互 · 交互式人工智能
+    description: 研究人类如何与智能体交互和协作，关注用户意图、交互上下文与有效反馈。
