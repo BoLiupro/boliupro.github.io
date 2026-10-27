@@ -51,7 +51,7 @@ Statuses never change automatically with the calendar. Update `status` and `grou
 - Optional `contain`: keeps framework images visible in full within cards.
 - Two Markdown collection documents store localized long-form content and explicit `permalink` / `translation` fields.
 
-Project records cover enterprise asset extraction and coding agents, target characteristic extraction and management, an AI voice assistant, a walking stick, Healthcare, C-V2X positioning, and positioning error analysis. MOTION, AgentApp and MAEDE appear only in Publications. Use Overview, Motivation, Method and Results when supported. Video, gallery, dataset and code sections should appear only when the corresponding material exists.
+Project records cover enterprise asset extraction and coding agents, target characteristic extraction and management, an AI voice assistant, a walking stick, Healthcare, C-V2X positioning, and positioning error analysis. MOTION and MAEDE appear only in Publications. AgentApp is temporarily hidden from all publication lists and previews. Use Overview, Motivation, Method and Results when supported. Video, gallery, dataset and code sections should appear only when the corresponding material exists.
 
 ### News
 
@@ -81,7 +81,7 @@ All external HTTP/HTTPS links open in a new tab with `noopener noreferrer`. Curr
 
 ## September 2026 content update
 
-Publication order: MOTION → Image2Traffic → AgentApp → LLMApp → UniMob → RAG²-MP → CSTNet → MAEDE → MoE-LLM → HPDM → R2-Transfer. This manual data order takes precedence over status grouping.
+Publication order: MOTION → Image2Traffic → LLMApp → UniMob → RAG²-MP → CSTNet → MAEDE → MoE-LLM → HPDM → R2-Transfer. This manual data order takes precedence over status grouping.
 
 The homepage research narrative uses four stages: graph/diffusion models; LLM semantic reasoning; retrieval-augmented and personalized agents; multi-agent reasoning over evolving graphs.
 
@@ -89,6 +89,6 @@ Volunteer teaching is stored in `_data/volunteering.yml` and appended to Hobbies
 
 ## Homepage previews
 
-`ui.en/zh.previews` defines the four section labels and their “All…” links. `_includes/home-previews.html` reads the existing publication, project, award, hobby and volunteering data, avoiding duplicate content records. The rows currently contain 11 publications, 7 projects, 21 awards and 5 hobby / volunteering entries. Publication cards link to paper anchors; project cards link to detail pages; awards and hobbies link to the matching timeline or gallery section.
+`ui.en/zh.previews` defines the four section labels and their “All…” links. `_includes/home-previews.html` reads the existing publication, project, award, hobby and volunteering data, avoiding duplicate content records. The rows currently contain 10 visible publications, 7 projects, 21 awards and 5 hobby / volunteering entries. The optional `visible: false` field hides a paper from both lists; temporarily withdrawn download assets must also be excluded in `_config.yml`. Publication cards link to paper anchors; project cards link to detail pages; awards and hobbies link to the matching timeline or gallery section.
 
 Desktop rows show four cards, medium-width screens show two, and narrow phones show one with a partial next card. Native scrolling remains usable without JavaScript. Buttons and keyboard arrows provide additional navigation, with reduced-motion preferences respected. Update the corresponding shared data to change the previews.

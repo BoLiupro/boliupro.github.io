@@ -113,9 +113,9 @@ for file, page in pages.items():
 
 for path in ['publications/index.html', 'zh/publications/index.html']:
     page = pages.get(root / path)
-    if page is None or page.publications != 11:
-        errors.append(f'{path}: must contain all 11 papers')
-    elif page.publication_ids != ['motion', 'image2traffic', 'agentapp', 'llmapp', 'unimob', 'rag2-mp', 'cstnet', 'maede', 'moe-llm', 'hpdm', 'r2-transfer']:
+    if page is None or page.publications != 10:
+        errors.append(f'{path}: must contain all 10 visible papers')
+    elif page.publication_ids != ['motion', 'image2traffic', 'llmapp', 'unimob', 'rag2-mp', 'cstnet', 'maede', 'moe-llm', 'hpdm', 'r2-transfer']:
         errors.append(f'{path}: publication order differs from the requested research sequence')
 
 for prefix in ['', 'zh/']:
@@ -136,10 +136,10 @@ for prefix in ['', 'zh/']:
     homepage_html = (root / prefix / 'index.html').read_text()
     if 'Intelligent agents, human behavior, and the environments we share.' in homepage_html or '研究智能体、人类行为与我们共同生活的环境。' in homepage_html:
         errors.append(f'{prefix}index.html: removed profile note is still visible')
-    if homepage is None or homepage.previews != 44 or not all('preview-' + section in homepage.ids for section in ['publications', 'projects', 'awards', 'hobbies']):
-        errors.append(f'{prefix}index.html: expected four preview rows with 11/7/21/5 items')
+    if homepage is None or homepage.previews != 43 or not all('preview-' + section in homepage.ids for section in ['publications', 'projects', 'awards', 'hobbies']):
+        errors.append(f'{prefix}index.html: expected four preview rows with 10/7/21/5 items')
     publications = pages.get(root / prefix / 'publications/index.html')
-    for link in ['https://anonymous.4open.science/r/MOTION-04C4', 'https://anonymous.4open.science/r/AgentApp-8202']:
+    for link in ['https://anonymous.4open.science/r/MOTION-04C4', 'https://anonymous.4open.science/r/image2text/']:
         if publications is None or link not in publications.links:
             errors.append(f'{prefix}publications: missing anonymous repository {link}')
     for link in ['https://github.com/BoLiupro/UniMob', 'https://github.com/BoLiupro/RAG2-MP']:
@@ -202,7 +202,7 @@ if errors:
     print('\n'.join(errors))
     sys.exit(1)
 print(f'PASS: {len(pages)} HTML pages; 26 sitemap routes; all local resources and anchors resolve.')
-print('PASS: bilingual metadata, 11 papers per language, image descriptions, and lazy-loaded YouTube demos.')
+print('PASS: bilingual metadata, 10 visible papers per language, image descriptions, and lazy-loaded YouTube demos.')
 print('PASS: requested paper order, profile links, 21 award evidence images, and volunteer galleries.')
 
 print("PASS: four homepage preview rows, anonymous code links, YouTube channel, and project repositories.")

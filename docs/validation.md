@@ -1,5 +1,12 @@
 # Validation
 
+## Temporarily hide AgentApp — 27 October 2026
+
+- Marked AgentApp as hidden and filtered it from both language variants of Publications and homepage previews.
+- Excluded its standalone PDF and cover from the generated public site and removed the corresponding AAAI venue from both About Me paragraphs.
+- Retained the source record for restoration. The public lists now contain ten papers and 43 preview cards (10/7/21/5).
+- Checked the GitHub profile README: it contains no AgentApp entry or anonymous repository link requiring removal.
+
 ## Research Interests card refinement — 26 October 2026
 
 - Removed the Vision-Language Models card from both language variants of the homepage Research Interests section.

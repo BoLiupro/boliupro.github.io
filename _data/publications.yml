@@ -45,6 +45,7 @@
     zh: Image2Traffic 语义对齐、流量模式检索与条件扩散生成框架
   anonymous: https://anonymous.4open.science/r/image2text/
 - id: agentapp
+  visible: false
   title: 'AgentApp: Bridging Personalized and Collective Patterns for Mobile App Usage Prediction via Collaborative
     LLM Agents'
   authors:

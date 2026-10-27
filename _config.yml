@@ -25,4 +25,4 @@ defaults:
     values:
       layout: project
       section: projects
-exclude: [Gemfile, Gemfile.lock, README.md, LICENSE, docs, scripts, vendor, node_modules, tmp]
+exclude: [Gemfile, Gemfile.lock, README.md, LICENSE, docs, scripts, vendor, node_modules, tmp, assets/files/papers/agentapp.pdf, assets/images/papers/agentapp.webp]

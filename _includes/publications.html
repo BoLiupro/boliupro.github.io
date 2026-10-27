@@ -1,2 +1,3 @@
 {% assign prefix = '' %}{% if page.lang == 'zh' %}{% assign prefix = '/zh' %}{% endif %}{% assign t = site.data.ui[page.lang] %}
-<div class="publication-list">{% for paper in site.data.publications %}{% include publication-card.html paper=paper %}{% endfor %}</div>
+{% assign visible_papers = site.data.publications | where_exp: "paper", "paper.visible != false" %}
+<div class="publication-list">{% for paper in visible_papers %}{% include publication-card.html paper=paper %}{% endfor %}</div>

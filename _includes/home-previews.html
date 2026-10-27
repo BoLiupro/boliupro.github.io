@@ -5,7 +5,8 @@
   <div id="preview-{{ group.id }}" class="preview-track" tabindex="0" role="region" aria-labelledby="preview-{{ group.id }}-title">
   {% case group.id %}
   {% when 'publications' %}
-    {% for paper in site.data.publications %}
+    {% assign visible_papers = site.data.publications | where_exp: "paper", "paper.visible != false" %}
+    {% for paper in visible_papers %}
       {% assign url = prefix | append: '/publications/#' | append: paper.id %}
       {% assign title = paper.title %}{% if page.lang == 'zh' and paper.title_zh %}{% assign title = paper.title_zh %}{% endif %}
       {% capture meta %}{{ paper.venue }} · {{ paper.year }}{% endcapture %}
